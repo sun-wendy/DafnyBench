@@ -16,9 +16,9 @@ DafnyBench is the largest benchmark of its kind for training and evaluating mach
 <br>
 
 
-<div style="text-align: center;">
-  <img src="assets/task_overview.jpg" width="500px">
-</div>
+<p align="center">
+  <img src="assets/task_overview.jpg" width="500px"/>
+</p>
 <br><br>
 
 
