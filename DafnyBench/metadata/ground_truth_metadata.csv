@@ -1,0 +1,783 @@
+test_ID,test_file,has_requires,has_ensures,#_char,#_hint_char,#_lemma,#_function,#_method,verifies_without_hints
+000,630-dafny_tmp_tmpz2kokaiq_Solution.dfy,True,True,781,89,0,1,1,False
+001,703FinalProject_tmp_tmpr_10rn4z_DP-GD.dfy,True,False,1452,231,0,0,1,True
+002,703FinalProject_tmp_tmpr_10rn4z_gaussian.dfy,True,False,1028,274,0,1,1,True
+003,AssertivePrograming_tmp_tmpwf43uz0e_DivMode_Unary.dfy,True,True,9500,1745,14,7,3,False
+004,AssertivePrograming_tmp_tmpwf43uz0e_Find_Substring.dfy,True,True,10254,3595,5,0,2,False
+005,AssertivePrograming_tmp_tmpwf43uz0e_MergeSort.dfy,True,True,8317,2358,10,0,9,False
+006,BPTree-verif_tmp_tmpq1z6xm1d_Utils.dfy,True,True,12308,2192,15,3,5,False
+007,BinarySearchTree_tmp_tmp_bn2twp5_bst4copy.dfy,True,True,4471,87,0,0,8,False
+008,CO3408-Advanced-Software-Modelling-Assignment-2022-23-Part-2-A-Specification-Spectacular_tmp_tmp4pj4p2zx_car_park.dfy,True,True,11417,1558,0,0,16,True
+009,CS494-final-project_tmp_tmp7nof55uq_bubblesort.dfy,True,True,2804,636,0,0,2,False
+010,CS5232_Project_tmp_tmpai_cfrng_LFUSimple.dfy,True,True,5146,1105,0,0,4,False
+011,CS5232_Project_tmp_tmpai_cfrng_test.dfy,False,True,394,57,0,0,1,False
+012,CSC8204-Dafny_tmp_tmp11yhjb53_stack.dfy,True,False,681,79,0,4,2,True
+013,CSU55004---Formal-Verification_tmp_tmp4ki9iaqy_Project_Project_Part_1_project_pt_1.dfy,True,False,7537,414,0,0,16,True
+014,CVS-Projto1_tmp_tmpb1o0bu8z_Hoare.dfy,True,True,1796,286,0,2,6,False
+015,CVS-Projto1_tmp_tmpb1o0bu8z_fact.dfy,False,True,1463,215,5,5,0,True
+016,CVS-Projto1_tmp_tmpb1o0bu8z_proj1_proj1.dfy,True,True,1710,177,1,2,3,False
+017,CVS-Projto1_tmp_tmpb1o0bu8z_searchSort.dfy,True,False,1100,49,0,0,2,True
+018,CVS-handout1_tmp_tmptm52no3k_1.dfy,True,True,1843,108,1,1,3,False
+019,CVS-handout1_tmp_tmptm52no3k_2.dfy,True,True,1448,221,0,2,2,False
+020,Clover_abs.dfy,False,True,146,0,0,0,1,True
+021,Clover_all_digits.dfy,False,True,315,74,0,0,1,False
+022,Clover_array_append.dfy,False,True,297,73,0,0,1,False
+023,Clover_array_concat.dfy,False,True,495,108,0,0,1,False
+024,Clover_array_copy.dfy,False,True,325,77,0,0,1,False
+025,Clover_array_product.dfy,True,True,379,75,0,0,1,False
+026,Clover_array_sum.dfy,True,True,375,75,0,0,1,False
+027,Clover_avg.dfy,False,True,102,0,0,0,1,True
+028,Clover_below_zero.dfy,False,True,914,222,0,0,1,False
+029,Clover_binary_search.dfy,True,True,636,130,0,0,1,False
+030,Clover_bubble_sort.dfy,False,True,920,488,0,0,1,False
+031,Clover_cal_ans.dfy,False,True,194,36,0,0,1,False
+032,Clover_cal_sum.dfy,True,True,227,51,0,0,1,False
+033,Clover_canyon_search.dfy,True,True,1055,308,0,0,1,False
+034,Clover_compare.dfy,False,True,164,0,0,0,1,True
+035,Clover_convert_map_key.dfy,True,True,312,0,0,0,1,True
+036,Clover_copy_part.dfy,True,True,951,302,0,0,1,False
+037,Clover_count_lessthan.dfy,False,True,678,176,0,0,1,False
+038,Clover_double_array_elements.dfy,False,True,372,147,0,0,1,False
+039,Clover_double_quadruple.dfy,False,True,123,0,0,0,1,True
+040,Clover_even_list.dfy,True,True,1418,585,0,0,1,False
+041,Clover_find.dfy,False,True,490,78,0,0,1,False
+042,Clover_has_close_elements.dfy,True,True,1395,443,0,0,1,False
+043,Clover_insert.dfy,True,True,1060,453,0,0,1,False
+044,Clover_integer_square_root.dfy,False,True,150,16,0,0,1,False
+045,Clover_is_even.dfy,False,True,141,0,0,0,1,True
+046,Clover_is_palindrome.dfy,False,True,474,114,0,0,1,False
+047,Clover_linear_search1.dfy,False,True,319,62,0,0,1,False
+048,Clover_linear_search2.dfy,True,True,347,62,0,0,1,False
+049,Clover_linear_search3.dfy,True,True,458,145,0,0,1,False
+050,Clover_longest_prefix.dfy,False,True,677,177,0,0,1,False
+051,Clover_match.dfy,True,True,386,87,0,0,1,False
+052,Clover_max_array.dfy,True,True,497,157,0,0,1,False
+053,Clover_min_array.dfy,True,True,414,119,0,0,1,False
+054,Clover_min_of_two.dfy,False,True,150,0,0,0,1,True
+055,Clover_modify_2d_array.dfy,True,True,570,0,0,0,1,True
+056,Clover_multi_return.dfy,False,True,152,0,0,0,1,True
+057,Clover_online_max.dfy,True,True,775,159,0,0,1,False
+058,Clover_only_once.dfy,False,True,493,133,0,0,1,False
+059,Clover_quotient.dfy,True,True,234,37,0,0,1,False
+060,Clover_remove_front.dfy,True,True,299,75,0,0,1,False
+061,Clover_replace.dfy,False,True,628,269,0,0,1,False
+062,Clover_return_seven.dfy,False,True,75,0,0,0,1,True
+063,Clover_reverse.dfy,False,True,448,195,0,0,1,False
+064,Clover_rotate.dfy,True,True,392,84,0,0,1,False
+065,Clover_selectionsort.dfy,False,True,726,291,0,0,1,False
+066,Clover_seq_to_array.dfy,True,True,213,0,0,0,1,True
+067,Clover_set_to_seq.dfy,False,True,284,54,0,0,1,False
+068,Clover_slope_search.dfy,True,True,639,129,0,0,1,False
+069,Clover_swap.dfy,False,True,169,24,0,0,1,True
+070,Clover_swap_arith.dfy,False,True,157,0,0,0,1,True
+071,Clover_swap_bitvector.dfy,False,True,156,0,0,0,1,True
+072,Clover_swap_in_array.dfy,True,True,321,0,0,0,1,True
+073,Clover_swap_sim.dfy,False,True,130,0,0,0,1,True
+074,Clover_test_array.dfy,True,True,198,0,0,0,1,True
+075,Clover_triple.dfy,False,True,70,0,0,0,1,True
+076,Clover_triple2.dfy,False,True,182,0,0,0,1,True
+077,Clover_triple3.dfy,False,True,126,0,0,0,1,True
+078,Clover_triple4.dfy,False,True,86,0,0,0,1,True
+079,Clover_two_sum.dfy,True,True,851,203,0,0,1,False
+080,Clover_update_array.dfy,True,True,244,0,0,0,1,True
+081,Clover_update_map.dfy,False,True,429,0,0,0,1,True
+082,Correctness_tmp_tmpwqvg5q_4_HoareLogic_exam.dfy,True,True,1918,262,4,1,2,False
+083,Correctness_tmp_tmpwqvg5q_4_MethodCalls_q1.dfy,True,True,3621,1971,4,1,1,False
+084,Correctness_tmp_tmpwqvg5q_4_Sorting_Tangent.dfy,True,True,2811,209,0,0,2,False
+085,Dafny-Exercises_tmp_tmpjm75muf__Session10Exercises_ExerciseBarrier.dfy,True,True,1241,228,0,0,6,False
+086,Dafny-Exercises_tmp_tmpjm75muf__Session2Exercises_ExerciseExp.dfy,True,True,614,65,2,1,0,False
+087,Dafny-Exercises_tmp_tmpjm75muf__Session2Exercises_ExerciseFibonacci.dfy,False,True,1140,333,0,1,3,False
+088,Dafny-Exercises_tmp_tmpjm75muf__Session2Exercises_ExercisePositive.dfy,False,True,1561,383,0,0,4,False
+089,Dafny-Exercises_tmp_tmpjm75muf__Session2Exercises_ExerciseSquare_root.dfy,True,True,875,247,0,0,3,False
+090,Dafny-Exercises_tmp_tmpjm75muf__Session3Exercises_ExerciseMaximum.dfy,True,True,2314,521,0,0,6,False
+091,Dafny-Exercises_tmp_tmpjm75muf__Session4Exercises_ExerciseAllEqual.dfy,True,True,2701,603,3,0,5,False
+092,Dafny-Exercises_tmp_tmpjm75muf__Session4Exercises_ExerciseContained.dfy,True,True,979,246,0,0,1,False
+093,Dafny-Exercises_tmp_tmpjm75muf__Session4Exercises_ExerciseFirstNegative.dfy,False,True,962,316,0,0,2,False
+094,Dafny-Exercises_tmp_tmpjm75muf__Session4Exercises_ExercisefirstZero.dfy,False,True,299,84,0,0,1,False
+095,Dafny-Exercises_tmp_tmpjm75muf__Session5Exercises_ExerciseSumElems.dfy,True,True,3875,450,7,3,2,False
+096,Dafny-Exercises_tmp_tmpjm75muf__Session6Exercises_ExerciseCountEven.dfy,True,True,1023,101,1,1,1,False
+097,Dafny-Exercises_tmp_tmpjm75muf__Session6Exercises_ExerciseCountMin.dfy,True,True,933,123,0,2,1,False
+098,Dafny-Exercises_tmp_tmpjm75muf__Session6Exercises_ExercisePeekSum.dfy,True,True,784,149,0,1,1,False
+099,Dafny-Exercises_tmp_tmpjm75muf__Session7Exercises_ExerciseBinarySearch.dfy,True,True,2142,127,0,1,4,False
+100,Dafny-Exercises_tmp_tmpjm75muf__Session7Exercises_ExerciseBubbleSort.dfy,True,True,2677,1274,0,0,2,False
+101,Dafny-Exercises_tmp_tmpjm75muf__Session7Exercises_ExerciseReplace.dfy,False,True,559,217,0,0,1,False
+102,Dafny-Exercises_tmp_tmpjm75muf__Session7Exercises_ExerciseSelSort.dfy,True,True,1255,511,0,0,1,False
+103,Dafny-Exercises_tmp_tmpjm75muf__Session7Exercises_ExerciseSeparate.dfy,True,True,1112,183,0,0,1,False
+104,Dafny-Exercises_tmp_tmpjm75muf__Session8Exercises_ExerciseInsertionSort.dfy,True,True,1240,554,0,0,1,False
+105,Dafny-Exercises_tmp_tmpjm75muf__Session9Exercises_ExerciseSeqMaxSum.dfy,True,True,1589,256,0,2,2,False
+106,Dafny-Grind75_tmp_tmpsxfz3i4r_problems_twoSum.dfy,True,True,1579,256,0,1,1,False
+107,Dafny-Practice_tmp_tmphnmt4ovh_BST.dfy,True,True,7074,3163,9,3,4,False
+108,Dafny-Practice_tmp_tmphnmt4ovh_Pattern Matching.dfy,True,True,10865,5312,6,2,1,False
+109,Dafny-Projects_tmp_tmph399drhy_p2_arraySplit.dfy,False,True,980,192,0,0,1,False
+110,Dafny-VMC_tmp_tmpzgqv0i1u_src_Math_Exponential.dfy,True,True,1032,74,5,1,0,False
+111,Dafny-VMC_tmp_tmpzgqv0i1u_src_Math_Helper.dfy,True,True,4605,230,20,3,0,False
+112,Dafny-demo_tmp_tmpkgr_dvdi_Dafny_BinarySearch.dfy,True,True,755,60,0,0,1,False
+113,Dafny-experiences_tmp_tmp150sm9qy_dafny_started_tutorial_dafny_tutorial_array.dfy,True,True,565,108,0,0,2,False
+114,Dafny-programs_tmp_tmpnso9eu7u_Algorithms + sorting_bubble-sort.dfy,False,True,2126,519,0,0,2,False
+115,DafnyExercises_tmp_tmpd6qyevja_Part1_Q1.dfy,True,True,456,87,0,0,1,False
+116,DafnyExercises_tmp_tmpd6qyevja_QuickExercises_testing2.dfy,True,True,12576,0,10,10,22,True
+117,DafnyPrograms_tmp_tmp74_f9k_c_automaton.dfy,True,True,5887,1286,0,2,3,False
+118,DafnyPrograms_tmp_tmp74_f9k_c_invertarray.dfy,False,True,927,249,0,0,1,False
+119,DafnyPrograms_tmp_tmp74_f9k_c_map-multiset-implementation.dfy,True,True,7831,798,2,3,14,False
+120,DafnyPrograms_tmp_tmp74_f9k_c_prime-database.dfy,True,True,3248,384,0,0,6,False
+121,DafnyProjects_tmp_tmp2acw_s4s_CombNK.dfy,True,True,1502,451,1,1,3,False
+122,DafnyProjects_tmp_tmp2acw_s4s_Graph.dfy,True,True,2639,173,0,1,5,True
+123,DafnyProjects_tmp_tmp2acw_s4s_Power.dfy,False,True,1520,0,4,2,3,True
+124,DafnyProjects_tmp_tmp2acw_s4s_RawSort.dfy,True,True,2255,77,1,1,2,False
+125,DafnyProjects_tmp_tmp2acw_s4s_findMax.dfy,True,True,1342,251,0,0,2,False
+126,DafnyProjects_tmp_tmp2acw_s4s_longestPrefix.dfy,False,True,786,138,0,0,3,False
+127,DafnyProjects_tmp_tmp2acw_s4s_partitionOddEven.dfy,False,True,1088,259,0,0,2,False
+128,DafnyProjects_tmp_tmp2acw_s4s_sqrt.dfy,True,True,480,16,2,0,2,False
+129,Dafny_Learning_Experience_tmp_tmpuxvcet_u_week1_7_A2_Q1_trimmed copy - 副本.dfy,True,True,5769,2436,0,1,6,False
+130,Dafny_Learning_Experience_tmp_tmpuxvcet_u_week1_7_MaxSum.dfy,False,True,380,15,0,0,2,True
+131,Dafny_Learning_Experience_tmp_tmpuxvcet_u_week1_7_Week4__LinearSearch.dfy,False,True,1022,186,0,0,3,False
+132,Dafny_Learning_Experience_tmp_tmpuxvcet_u_week1_7_week4_tute_ex4.dfy,True,True,3977,1570,0,0,4,False
+133,Dafny_Learning_Experience_tmp_tmpuxvcet_u_week1_7_week5_ComputePower.dfy,False,True,396,56,0,1,2,False
+134,Dafny_Learning_Experience_tmp_tmpuxvcet_u_week8_12_a3 copy 2.dfy,True,True,7831,1270,0,0,8,False
+135,Dafny_Learning_Experience_tmp_tmpuxvcet_u_week8_12_a3_search_findPositionOfIndex.dfy,True,True,1799,319,0,0,2,False
+136,Dafny_Learning_Experience_tmp_tmpuxvcet_u_week8_12_week10_BoundedQueue_01.dfy,True,True,2003,494,0,0,2,False
+137,Dafny_Learning_Experience_tmp_tmpuxvcet_u_week8_12_week10_ExtensibleArray.dfy,True,True,2857,42,0,1,2,False
+138,Dafny_Learning_Experience_tmp_tmpuxvcet_u_week8_12_week8_CheckSumCalculator.dfy,True,True,2349,75,0,4,2,False
+139,Dafny_Learning_Experience_tmp_tmpuxvcet_u_week8_12_week8_CoffeeMaker2.dfy,True,True,2456,34,0,2,7,True
+140,Dafny_Learning_Experience_tmp_tmpuxvcet_u_week8_12_week9_lemma.dfy,True,True,1486,288,2,0,2,True
+141,Dafny_ProgrammingLanguages_tmp_tmp82_e0kji_ExtraCredit.dfy,False,True,1531,544,0,3,2,True
+142,Dafny_Programs_tmp_tmp99966ew4_binary_search.dfy,True,True,847,79,0,0,1,False
+143,Dafny_Programs_tmp_tmp99966ew4_lemma.dfy,True,True,1143,243,1,0,1,False
+144,Dafny_Programs_tmp_tmp99966ew4_mymax.dfy,False,True,237,38,0,0,2,True
+145,Dafny_Programs_tmp_tmp99966ew4_trig.dfy,True,True,148,12,0,0,1,False
+146,Dafny_Verify_tmp_tmphq7j0row_AI_agent_validation_examples.dfy,True,True,12703,1851,0,1,24,False
+147,Dafny_Verify_tmp_tmphq7j0row_AI_agent_verify_examples_ComputePower.dfy,True,True,344,59,0,1,1,False
+148,Dafny_Verify_tmp_tmphq7j0row_AI_agent_verify_examples_CopyMatrix.dfy,True,True,1013,500,0,0,1,False
+149,Dafny_Verify_tmp_tmphq7j0row_AI_agent_verify_examples_Cube.dfy,False,True,356,99,0,0,1,False
+150,Dafny_Verify_tmp_tmphq7j0row_AI_agent_verify_examples_DoubleArray.dfy,True,True,458,159,0,0,1,False
+151,Dafny_Verify_tmp_tmphq7j0row_AI_agent_verify_examples_IncrementMatrix.dfy,False,True,991,538,0,0,1,False
+152,Dafny_Verify_tmp_tmphq7j0row_AI_agent_verify_examples_RotateRight.dfy,True,True,494,177,0,0,1,False
+153,Dafny_Verify_tmp_tmphq7j0row_Fine_Tune_Examples_50_examples_28.dfy,True,True,338,44,0,0,1,False
+154,Dafny_Verify_tmp_tmphq7j0row_Fine_Tune_Examples_50_examples_37.dfy,True,True,303,41,0,0,1,False
+155,Dafny_Verify_tmp_tmphq7j0row_Fine_Tune_Examples_50_examples_38.dfy,True,True,393,57,0,0,1,False
+156,Dafny_Verify_tmp_tmphq7j0row_Fine_Tune_Examples_50_examples_41.dfy,True,True,300,51,0,0,1,False
+157,Dafny_Verify_tmp_tmphq7j0row_Fine_Tune_Examples_50_examples_BinarySearch.dfy,True,True,653,139,0,0,1,False
+158,Dafny_Verify_tmp_tmphq7j0row_Fine_Tune_Examples_50_examples_SumArray.dfy,True,True,491,58,0,1,1,False
+159,Dafny_Verify_tmp_tmphq7j0row_Fine_Tune_Examples_error_data_completion_06_n.dfy,False,True,616,221,0,0,1,True
+160,Dafny_Verify_tmp_tmphq7j0row_Fine_Tune_Examples_error_data_completion_07.dfy,True,True,420,45,0,0,1,False
+161,Dafny_Verify_tmp_tmphq7j0row_Fine_Tune_Examples_error_data_completion_11.dfy,True,True,235,41,0,0,1,False
+162,Dafny_Verify_tmp_tmphq7j0row_Fine_Tune_Examples_normal_data_completion_MaxPerdV2.dfy,True,True,689,46,0,3,1,False
+163,Dafny_Verify_tmp_tmphq7j0row_Generated_Code_15.dfy,True,True,287,47,0,0,1,False
+164,Dafny_Verify_tmp_tmphq7j0row_Generated_Code_ComputePower.dfy,False,True,295,38,0,1,1,False
+165,Dafny_Verify_tmp_tmphq7j0row_Generated_Code_Count.dfy,True,True,651,54,0,2,1,False
+166,Dafny_Verify_tmp_tmphq7j0row_Generated_Code_LinearSearch.dfy,False,True,397,73,0,0,1,False
+167,Dafny_Verify_tmp_tmphq7j0row_Generated_Code_Minimum.dfy,True,True,415,126,0,0,1,False
+168,Dafny_Verify_tmp_tmphq7j0row_Generated_Code_Mult.dfy,True,True,199,26,0,0,1,False
+169,Dafny_Verify_tmp_tmphq7j0row_Generated_Code_rand.dfy,True,True,261,47,0,0,1,False
+170,Dafny_Verify_tmp_tmphq7j0row_Test_Cases_Function.dfy,False,True,459,44,0,1,3,True
+171,Dafny_Verify_tmp_tmphq7j0row_Test_Cases_Ghost.dfy,True,True,861,64,0,2,6,True
+172,Dafny_Verify_tmp_tmphq7j0row_Test_Cases_Index.dfy,True,True,1185,134,0,0,7,True
+173,Dafny_Verify_tmp_tmphq7j0row_Test_Cases_LoopInvariant.dfy,True,True,1140,280,0,0,6,False
+174,Dafny_Verify_tmp_tmphq7j0row_Test_Cases_Triple.dfy,True,True,733,87,0,0,5,True
+175,Dafny_Verify_tmp_tmphq7j0row_Test_Cases_solved_1_select.dfy,False,True,882,394,0,0,1,False
+176,Dafny_Verify_tmp_tmphq7j0row_dataset_C_convert_examples_01.dfy,False,True,268,17,0,0,1,True
+177,Dafny_Verify_tmp_tmphq7j0row_dataset_C_convert_examples_06_n.dfy,False,True,2038,221,0,0,1,True
+178,Dafny_Verify_tmp_tmphq7j0row_dataset_C_convert_examples_07.dfy,True,True,1075,45,0,0,1,False
+179,Dafny_Verify_tmp_tmphq7j0row_dataset_C_convert_examples_11.dfy,True,True,849,41,0,0,1,False
+180,Dafny_Verify_tmp_tmphq7j0row_dataset_C_convert_examples_15.dfy,True,True,638,47,0,0,1,False
+181,Dafny_Verify_tmp_tmphq7j0row_dataset_C_convert_examples_23_x.dfy,True,False,439,39,0,0,1,True
+182,Dafny_Verify_tmp_tmphq7j0row_dataset_bql_exampls_Min.dfy,True,True,478,140,0,0,1,False
+183,Dafny_Verify_tmp_tmphq7j0row_dataset_bql_exampls_SmallNum.dfy,True,True,342,40,0,0,1,False
+184,Dafny_Verify_tmp_tmphq7j0row_dataset_bql_exampls_Square.dfy,True,True,267,59,0,0,1,False
+185,Dafny_Verify_tmp_tmphq7j0row_dataset_detailed_examples_SelectionSort.dfy,False,True,1864,394,0,0,1,False
+186,Dafny_Verify_tmp_tmphq7j0row_dataset_error_data_real_error_IsEven_success_1.dfy,True,True,320,47,0,1,1,False
+187,Dafny_tmp_tmp0wu8wmfr_Heimaverkefni 1_LinearSearch.dfy,True,True,2133,71,0,6,2,False
+188,Dafny_tmp_tmp0wu8wmfr_Heimaverkefni 2_BinarySearchDec.dfy,True,True,2205,318,0,0,3,False
+189,Dafny_tmp_tmp0wu8wmfr_Heimaverkefni 3_InsertionSortMultiset.dfy,True,True,2184,238,0,0,2,False
+190,Dafny_tmp_tmp0wu8wmfr_Heimaverkefni 3_SelectionSortMultiset.dfy,True,True,2540,423,0,0,4,False
+191,Dafny_tmp_tmp0wu8wmfr_Heimaverkefni 8_H8.dfy,True,True,2124,232,0,0,2,False
+192,Dafny_tmp_tmp0wu8wmfr_tests_F1a.dfy,True,True,420,51,0,0,3,True
+193,Dafny_tmp_tmp0wu8wmfr_tests_InsertionSortSeq.dfy,False,True,805,215,0,0,1,False
+194,Dafny_tmp_tmp0wu8wmfr_tests_Search1000.dfy,True,True,2831,182,0,2,5,False
+195,Dafny_tmp_tmp0wu8wmfr_tests_SumIntsLoop.dfy,True,True,530,86,0,1,2,False
+196,Dafny_tmp_tmpj88zq5zt_2-Kontrakte_max.dfy,True,True,504,71,0,0,2,True
+197,Dafny_tmp_tmpj88zq5zt_2-Kontrakte_reverse3.dfy,True,True,858,169,0,0,2,True
+198,Dafny_tmp_tmpmvs2dmry_SlowMax.dfy,False,True,437,101,0,1,1,False
+199,Dafny_tmp_tmpmvs2dmry_examples1.dfy,True,True,722,28,0,1,4,False
+200,Dafny_tmp_tmpmvs2dmry_examples2.dfy,True,True,2799,407,0,2,5,False
+201,Dafny_tmp_tmpmvs2dmry_pancakesort_findmax.dfy,True,True,606,121,0,0,1,False
+202,Dafny_tmp_tmpmvs2dmry_pancakesort_flip.dfy,True,True,873,318,0,0,1,False
+203,Dafny_tmp_tmpv_d3qi10_2_min.dfy,True,True,1248,116,0,2,3,False
+204,Dafny_tmp_tmpv_d3qi10_3_cumsum.dfy,True,True,732,84,0,1,1,False
+205,FMSE-2022-2023_tmp_tmp6_x_ba46_Lab10_Lab10.dfy,True,True,13035,499,0,0,35,False
+206,FMSE-2022-2023_tmp_tmp6_x_ba46_Lab1_Lab1.dfy,True,True,3951,58,2,7,0,False
+207,FMSE-2022-2023_tmp_tmp6_x_ba46_Lab2_Lab2.dfy,True,True,10965,557,12,9,0,False
+208,FMSE-2022-2023_tmp_tmp6_x_ba46_Lab3_Lab3.dfy,False,True,4311,50,8,9,0,True
+209,Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Exercise3_Increment_Array.dfy,True,True,612,335,0,0,1,False
+210,Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Exercise4_Find_Max.dfy,True,True,709,189,0,0,1,False
+211,Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Exercise6_Binary_Search.dfy,True,True,860,190,0,0,1,False
+212,Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Insertion_Sort_Normal.dfy,True,True,974,299,0,0,2,False
+213,Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Insertion_Sorted_Standard.dfy,True,True,847,174,0,0,1,False
+214,Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Merge_Sort.dfy,True,False,1626,239,0,0,3,False
+215,Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Quick_Sort.dfy,True,True,1812,427,2,0,2,False
+216,Final-Project-Dafny_tmp_tmpmcywuqox_Attempts_Selection_Sort_Standard.dfy,False,True,889,391,0,0,1,False
+217,Final-Project-Dafny_tmp_tmpmcywuqox_Final_Project_3.dfy,False,True,202,18,0,0,2,False
+218,FlexWeek_tmp_tmpc_tfdj_3_ex2.dfy,False,True,776,103,0,1,2,False
+219,FlexWeek_tmp_tmpc_tfdj_3_ex3.dfy,False,True,1102,273,0,1,2,False
+220,FlexWeek_tmp_tmpc_tfdj_3_ex4.dfy,False,True,2923,1008,0,0,2,False
+221,FlexWeek_tmp_tmpc_tfdj_3_reverse.dfy,True,True,1687,199,0,1,6,False
+222,Formal-Methods-Project_tmp_tmphh2ar2xv_BubbleSort.dfy,True,False,1092,213,0,0,2,True
+223,Formal-Methods-Project_tmp_tmphh2ar2xv_Factorial.dfy,True,False,264,35,0,0,2,False
+224,Formal-Verification-Project_tmp_tmp9gmwsmyp_strings3.dfy,True,True,5753,746,6,0,4,False
+225,Formal-Verification_tmp_tmpuyt21wjt_Dafny_strings1.dfy,False,True,2625,453,0,0,4,False
+226,Formal-Verification_tmp_tmpuyt21wjt_Dafny_strings3.dfy,True,True,3766,488,5,0,4,False
+227,Formal-methods-of-software-development_tmp_tmppryvbyty_Bloque 1_Lab3.dfy,True,True,3161,1181,1,2,7,False
+228,Formal-methods-of-software-development_tmp_tmppryvbyty_Bloque 2_Lab6.dfy,True,True,10355,2021,10,4,4,False
+229,Formal-methods-of-software-development_tmp_tmppryvbyty_Examenes_Beni_Heusel-Benedikt-Ass-1.dfy,True,True,6867,327,17,2,0,False
+230,FormalMethods_tmp_tmpvda2r3_o_dafny_Invariants_ex1.dfy,False,True,689,36,0,0,1,False
+231,FormalMethods_tmp_tmpvda2r3_o_dafny_Invariants_ex2.dfy,False,True,606,44,0,1,1,False
+232,Formal_Verification_With_Dafny_tmp_tmp5j79rq48_Counter.dfy,True,True,653,19,0,0,4,True
+233,Formal_Verification_With_Dafny_tmp_tmp5j79rq48_LimitedStack.dfy,True,True,4607,472,0,0,8,False
+234,HATRA-2022-Paper_tmp_tmp5texxy8l_copilot_verification_Binary Search_binary_search.dfy,True,True,1691,148,0,0,1,False
+235,HATRA-2022-Paper_tmp_tmp5texxy8l_copilot_verification_Largest Sum_largest_sum.dfy,True,True,1413,235,0,2,1,False
+236,HATRA-2022-Paper_tmp_tmp5texxy8l_copilot_verification_Sort Array_sort_array.dfy,True,True,1906,442,0,0,1,False
+237,HATRA-2022-Paper_tmp_tmp5texxy8l_copilot_verification_Two Sum_two_sum.dfy,True,True,1176,468,0,0,1,False
+238,Invoker_tmp_tmpypx0gs8x_dafny_abstract-interpreter_SimpleVerifier.dfy,True,True,7290,317,4,10,0,False
+239,M2_tmp_tmp2laaavvl_Software Verification_Exercices_Exo4-CountAndReturn.dfy,True,True,196,21,0,0,1,False
+240,M2_tmp_tmp2laaavvl_Software Verification_Exercices_Exo7-ComputeSum.dfy,False,True,292,42,0,1,1,False
+241,M2_tmp_tmp2laaavvl_Software Verification_Exercices_Exo9-Carre.dfy,False,True,218,54,0,0,1,False
+242,MFDS_tmp_tmpvvr5y1t9_Assignments_Ass-1-2020-21-Sol-eGela.dfy,True,True,3516,547,12,1,0,False
+243,MFES_2021_tmp_tmpuljn8zd9_Exams_Special_Exam_03_2020_4_CatalanNumbers.dfy,False,True,646,291,0,1,1,False
+244,MFES_2021_tmp_tmpuljn8zd9_FCUL_Exercises_10_find.dfy,True,True,415,110,0,0,1,False
+245,MFES_2021_tmp_tmpuljn8zd9_FCUL_Exercises_8_sum.dfy,False,True,320,65,0,1,1,False
+246,MFES_2021_tmp_tmpuljn8zd9_PracticalClasses_TP3_2_Insertion_Sort.dfy,True,True,1186,338,0,0,2,False
+247,MFES_2021_tmp_tmpuljn8zd9_TheoreticalClasses_Power.dfy,False,True,2875,115,4,2,4,False
+248,MFS_tmp_tmpmmnu354t_Praticas_TP9_Power.dfy,False,True,2195,89,3,2,3,False
+249,MFS_tmp_tmpmmnu354t_Testes anteriores_T2_ex5_2020_2.dfy,False,True,1016,98,0,0,2,False
+250,MIEIC_mfes_tmp_tmpq3ho7nve_TP3_binary_search.dfy,True,True,1604,213,0,0,3,False
+251,MIEIC_mfes_tmp_tmpq3ho7nve_exams_appeal_20_p4.dfy,False,True,359,83,0,1,1,False
+252,MIEIC_mfes_tmp_tmpq3ho7nve_exams_mt2_19_p4.dfy,False,True,422,53,0,1,1,False
+253,MIEIC_mfes_tmp_tmpq3ho7nve_exams_mt2_19_p5.dfy,True,True,1462,214,0,0,1,False
+254,MIEIC_mfes_tmp_tmpq3ho7nve_exams_special_20_p5.dfy,True,True,1586,223,0,0,2,False
+255,Metodos_Formais_tmp_tmpbez22nnn_Aula_2_ex1.dfy,False,True,240,38,0,0,1,False
+256,Metodos_Formais_tmp_tmpbez22nnn_Aula_2_ex2.dfy,False,True,353,45,0,1,1,False
+257,Metodos_Formais_tmp_tmpbez22nnn_Aula_4_ex1.dfy,True,False,282,47,0,0,1,False
+258,Metodos_Formais_tmp_tmpbez22nnn_Aula_4_ex3.dfy,False,True,448,94,0,1,2,False
+259,Metodos_Formais_tmp_tmpql2hwcsh_Arrays_explicacao.dfy,False,True,1400,217,0,0,1,False
+260,Metodos_Formais_tmp_tmpql2hwcsh_Arrays_somatorioArray.dfy,True,True,1030,24,0,2,1,False
+261,Metodos_Formais_tmp_tmpql2hwcsh_Invariantes_fatorial2.dfy,False,True,490,96,0,1,1,False
+262,Metodos_Formais_tmp_tmpql2hwcsh_Invariantes_fibonacci.dfy,False,True,889,78,0,1,1,False
+263,Metodos_Formais_tmp_tmpql2hwcsh_Invariantes_multiplicador.dfy,False,True,1297,38,0,0,1,False
+264,Metodos_Formais_tmp_tmpql2hwcsh_Invariantes_potencia.dfy,False,True,1379,43,0,2,1,False
+265,Prog-Fun-Solutions_tmp_tmp7_gmnz5f_extra_mod.dfy,False,True,904,383,0,1,1,False
+266,Prog-Fun-Solutions_tmp_tmp7_gmnz5f_extra_mod2.dfy,False,True,740,346,0,1,1,False
+267,Prog-Fun-Solutions_tmp_tmp7_gmnz5f_extra_pow.dfy,False,True,534,186,0,1,1,False
+268,Prog-Fun-Solutions_tmp_tmp7_gmnz5f_extra_sum.dfy,False,True,730,350,0,1,1,False
+269,Prog-Fun-Solutions_tmp_tmp7_gmnz5f_mockExam2_p2.dfy,True,True,512,188,0,0,1,True
+270,Prog-Fun-Solutions_tmp_tmp7_gmnz5f_mockExam2_p3.dfy,True,True,600,174,0,0,1,True
+271,Prog-Fun-Solutions_tmp_tmp7_gmnz5f_mockExam2_p5.dfy,False,True,785,319,0,1,1,False
+272,Prog-Fun-Solutions_tmp_tmp7_gmnz5f_mockExam2_p6.dfy,False,True,1113,535,0,3,1,False
+273,Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_ArrayMap.dfy,True,True,969,78,0,0,2,False
+274,Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_EvenPredicate.dfy,True,True,1150,46,4,1,0,True
+275,Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_GenericMax.dfy,True,True,660,79,0,0,1,False
+276,Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_InsertionSort.dfy,True,True,1002,122,0,0,2,False
+277,Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_MatrixMultiplication.dfy,True,True,2358,421,0,2,1,False
+278,Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_Modules.dfy,False,True,539,31,3,1,0,True
+279,Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_OneHundredPrisonersAndALightbulb.dfy,True,True,1103,267,0,0,2,False
+280,Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_Percentile.dfy,True,True,2771,168,3,2,2,False
+281,Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_Refinement.dfy,False,True,503,25,0,2,2,True
+282,Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_ReverseString.dfy,True,True,1265,173,0,0,2,False
+283,Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_advanced examples_demo.dfy,False,True,878,191,0,0,1,False
+284,Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_ProgramProofs_ch15.dfy,True,True,2958,575,0,0,4,False
+285,Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_examples_bubblesort.dfy,False,True,1687,195,4,2,1,False
+286,Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_examples_relativeOrder.dfy,True,True,1481,552,0,0,1,False
+287,Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_examples_simpleMultiplication.dfy,True,True,919,186,1,1,2,False
+288,Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_heap2.dfy,True,True,2621,212,0,1,1,True
+289,Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_BoatsToSavePeople.dfy,True,True,4612,1000,0,4,1,False
+290,Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_FindPivotIndex.dfy,True,True,4468,853,2,3,1,False
+291,Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_ReverseLinkedList.dfy,True,True,8213,496,18,5,1,False
+292,Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_lc-remove-element.dfy,False,True,859,109,0,0,2,False
+293,Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_pathSum.dfy,False,True,2464,279,0,4,2,False
+294,Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_stairClimbing.dfy,True,True,6589,1006,14,6,2,False
+295,Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_leetcode_validAnagram.dfy,False,True,2196,405,0,0,3,False
+296,Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_lib_seq.dfy,True,True,15749,2441,30,2,1,False
+297,Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_algorithms and leetcode_math_pearson.dfy,True,True,7354,415,10,4,1,True
+298,Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_basic examples_BubbleSort.dfy,True,True,1054,231,0,0,1,False
+299,Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_basic examples_BubbleSort_sol.dfy,True,True,1180,316,0,0,1,False
+300,Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_basic examples_add_by_one.dfy,True,True,1421,181,0,5,2,False
+301,Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_basic examples_add_by_one_details.dfy,True,True,591,127,0,0,2,True
+302,Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_basic examples_find_max.dfy,True,True,459,128,0,0,1,False
+303,Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_basic examples_product_details.dfy,False,True,629,148,0,0,1,True
+304,Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_basic examples_sumto_sol.dfy,True,True,1020,106,3,2,2,False
+305,Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny0_GhostITECompilation.dfy,False,True,1624,38,1,10,1,False
+306,Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny0_ModulePrint.dfy,False,True,824,14,0,0,3,True
+307,Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny1_BDD.dfy,True,True,1814,185,0,0,1,False
+308,Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny1_ListContents.dfy,True,True,2559,325,0,0,3,False
+309,Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny1_Queue.dfy,True,True,4306,233,0,0,8,True
+310,Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny2_COST-verif-comp-2011-2-MaxTree-class.dfy,True,True,5331,15,1,5,2,False
+311,Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny2_COST-verif-comp-2011-3-TwoDuplicates.dfy,True,True,5281,703,0,2,4,False
+312,Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny2_Classics.dfy,True,True,3562,1159,0,1,3,False
+313,Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny2_MajorityVote.dfy,True,True,16403,1296,10,2,9,False
+314,Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny2_StoreAndRetrieve.dfy,True,True,2722,101,0,0,9,False
+315,Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny3_CachedContainer.dfy,False,True,5925,202,0,0,17,False
+316,Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny3_CalcExample.dfy,True,True,5820,270,12,3,3,False
+317,Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny3_InfiniteTrees.dfy,True,True,21823,1076,34,14,0,False
+318,Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny3_Iter.dfy,True,True,2545,266,0,0,4,False
+319,Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny3_Streams.dfy,True,True,10674,407,21,16,2,False
+320,Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny4_ACL2-extractor.dfy,True,True,7037,228,16,7,0,False
+321,Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny4_Bug170.dfy,True,True,1907,276,5,0,0,True
+322,Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny4_ClassRefinement.dfy,True,True,1852,78,0,0,5,True
+323,Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny4_NipkowKlein-chapter3.dfy,False,True,7754,14,12,13,0,True
+324,Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny4_Primes.dfy,True,True,6025,406,13,2,0,False
+325,Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from_dafny_main_repo_dafny0_snapshots_Inputs_Snapshots1.dfy,False,True,93,13,0,0,2,False
+326,Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from_dafny_main_repo_dafny0_snapshots_Inputs_Snapshots5.dfy,False,True,306,135,0,0,2,False
+327,Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_lightening_verifier.dfy,True,True,17392,2146,1,14,10,False
+328,Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_mathematical objects verification_examples_fast_exp.dfy,True,True,3174,843,6,3,1,False
+329,Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_mathematical objects verification_examples_interval_example.dfy,True,True,3995,79,7,7,0,False
+330,Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_mathematical objects verification_examples_library.dfy,True,True,3782,144,3,2,1,False
+331,Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_mathematical objects verification_examples_logic.dfy,True,True,8736,97,25,0,0,True
+332,Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_pregel algorithms_skeleton_nondet-permutation.dfy,True,True,1929,218,3,0,1,False
+333,Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_vampire project_original_Searching.dfy,True,True,541,92,0,0,1,False
+334,Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_variant examples_KatzManna.dfy,True,True,1925,434,0,0,3,False
+335,Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_variant examples_SumOfCubes.dfy,True,True,2258,310,0,3,7,False
+336,Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_verified algorithms_inductive_props.dfy,True,True,3716,284,17,3,1,False
+337,Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_verified algorithms_lol_sort.dfy,True,True,2134,257,0,0,3,False
+338,Programmverifikation-und-synthese_tmp_tmppurk6ime_PVS_Assignment_ex_04_Hoangkim_ex_04_Hoangkim.dfy,True,True,840,142,0,0,3,False
+339,Programmverifikation-und-synthese_tmp_tmppurk6ime_PVS_Assignment_ex_05_Hoangkim_ex_05_Hoangkim.dfy,True,True,1768,230,0,3,3,False
+340,Programmverifikation-und-synthese_tmp_tmppurk6ime_PVS_Assignment_ex_06_Hoangkim_ex06-solution.dfy,True,True,689,185,0,2,1,False
+341,Programmverifikation-und-synthese_tmp_tmppurk6ime_PVS_Assignment_ex_06_Hoangkim_ex_06_hoangkim.dfy,True,True,759,111,0,2,1,False
+342,Programmverifikation-und-synthese_tmp_tmppurk6ime_PVS_Assignment_ex_07_Hoangkim_ex07_Hoangkim.dfy,True,True,1265,259,0,0,3,False
+343,Programmverifikation-und-synthese_tmp_tmppurk6ime_PVS_Assignment_ex_10_Hoangkim_ex10_hoangkim.dfy,True,True,3658,73,0,0,10,False
+344,Programmverifikation-und-synthese_tmp_tmppurk6ime_example_DafnyIntro_01_Simple_Loops.dfy,True,True,1673,108,0,0,2,False
+345,ProjectosCVS_tmp_tmp_02_gmcw_Handout 1_CVS_handout1_55754_55780.dfy,True,True,1595,124,2,0,2,False
+346,QS_BoilerPlate1_tmp_tmpa29vtz9__Ex2.dfy,True,True,2245,527,0,1,4,False
+347,SENG2011_tmp_tmpgk5jq85q_ass1_ex7.dfy,True,False,363,134,0,0,1,True
+348,SENG2011_tmp_tmpgk5jq85q_ass1_ex8.dfy,True,True,391,94,0,0,1,False
+349,SENG2011_tmp_tmpgk5jq85q_ass2_ex1.dfy,True,True,742,35,0,0,3,True
+350,SENG2011_tmp_tmpgk5jq85q_ass2_ex2.dfy,True,True,1617,187,0,0,2,True
+351,SENG2011_tmp_tmpgk5jq85q_ass2_ex3.dfy,True,True,3021,911,0,0,2,False
+352,SENG2011_tmp_tmpgk5jq85q_ass2_ex5.dfy,True,True,2306,1453,1,1,1,False
+353,SENG2011_tmp_tmpgk5jq85q_exam_ex2.dfy,True,True,1116,240,0,0,2,False
+354,SENG2011_tmp_tmpgk5jq85q_exam_ex3.dfy,False,True,830,178,0,0,2,False
+355,SENG2011_tmp_tmpgk5jq85q_exam_ex4.dfy,False,True,265,95,1,0,0,False
+356,SENG2011_tmp_tmpgk5jq85q_flex_ex1.dfy,True,True,787,167,0,1,2,False
+357,SENG2011_tmp_tmpgk5jq85q_flex_ex2.dfy,True,True,908,109,0,1,2,False
+358,SENG2011_tmp_tmpgk5jq85q_flex_ex5.dfy,False,True,589,76,0,0,2,False
+359,SENG2011_tmp_tmpgk5jq85q_p1.dfy,True,True,1198,370,0,0,2,False
+360,SENG2011_tmp_tmpgk5jq85q_p2.dfy,True,True,905,315,0,0,1,False
+361,SiLemma_tmp_tmpfxtryv2w_utils.dfy,True,True,1981,213,5,0,0,False
+362,Simulink-To_dafny_tmp_tmpbcuesj2t_Tank.dfy,True,True,1830,204,0,0,1,True
+363,Software-Verification_tmp_tmpv4ueky2d_Best Time to Buy and Sell Stock_best_time_to_buy_and_sell_stock.dfy,True,True,849,171,0,0,1,False
+364,Software-Verification_tmp_tmpv4ueky2d_Contains Duplicate_contains_duplicate.dfy,True,True,692,98,0,0,1,False
+365,Software-Verification_tmp_tmpv4ueky2d_Counting Bits_counting_bits.dfy,True,True,474,96,0,0,1,False
+366,Software-Verification_tmp_tmpv4ueky2d_Longest Increasing Subsequence_longest_increasing_subsequence.dfy,True,True,974,65,0,1,1,False
+367,Software-Verification_tmp_tmpv4ueky2d_Non-overlapping Intervals_non_overlapping_intervals.dfy,True,True,2213,363,0,0,2,False
+368,Software-Verification_tmp_tmpv4ueky2d_Remove Duplicates from Sorted Array_remove_duplicates_from_sorted_array.dfy,True,True,1161,220,0,0,1,False
+369,Software-Verification_tmp_tmpv4ueky2d_Remove Element_remove_element.dfy,True,True,828,109,0,0,1,False
+370,Software-Verification_tmp_tmpv4ueky2d_Valid Anagram_valid_anagram.dfy,True,True,1847,214,0,0,2,False
+371,Software-Verification_tmp_tmpv4ueky2d_Valid Palindrome_valid_panlindrome.dfy,True,True,501,87,0,0,1,False
+372,Software-building-and-verification-Projects_tmp_tmp5tm1srrn_CVS-projeto_aula1.dfy,False,True,1577,134,3,11,1,False
+373,Software-building-and-verification-Projects_tmp_tmp5tm1srrn_CVS-projeto_aula2.dfy,True,True,1293,34,0,0,8,True
+374,Software-building-and-verification-Projects_tmp_tmp5tm1srrn_CVS-projeto_aula3.dfy,True,True,2216,501,0,3,5,False
+375,Software-building-and-verification-Projects_tmp_tmp5tm1srrn_CVS-projeto_aula5.dfy,True,True,10933,640,0,6,19,False
+376,Software-building-and-verification-Projects_tmp_tmp5tm1srrn_CVS-projeto_handout1.dfy,True,True,1844,285,1,2,3,False
+377,Software-building-and-verification-Projects_tmp_tmp5tm1srrn_CVS-projeto_handout2.dfy,True,True,8821,1929,0,6,6,False
+378,TFG_tmp_tmpbvsao41w_Algoritmos Dafny_div_ent_it.dfy,True,True,478,54,0,0,2,False
+379,TFG_tmp_tmpbvsao41w_Algoritmos Dafny_suma_it.dfy,True,True,942,87,0,1,2,False
+380,Trab1-Metodos-Formais_tmp_tmp_8fa4trr_circular-array.dfy,True,True,5484,1292,0,2,13,True
+381,VerifiedMergeSortDafny_tmp_tmpva7qms1b_MergeSort.dfy,True,True,3280,937,0,0,2,False
+382,Workshop_tmp_tmp0cu11bdq_Lecture_Answers_max_array.dfy,True,True,877,262,0,0,1,False
+383,Workshop_tmp_tmp0cu11bdq_Lecture_Answers_selection_sort.dfy,True,True,1349,559,0,0,1,False
+384,Workshop_tmp_tmp0cu11bdq_Lecture_Answers_sum_array.dfy,True,True,447,58,0,1,1,False
+385,Workshop_tmp_tmp0cu11bdq_Lecture_Answers_triangle_number.dfy,True,True,352,126,0,0,1,False
+386,Workshop_tmp_tmp0cu11bdq_Workshop_Answers_Question5.dfy,True,True,638,319,0,0,1,False
+387,Workshop_tmp_tmp0cu11bdq_Workshop_Answers_Question6.dfy,True,True,524,170,0,0,1,False
+388,WrappedEther.dfy,True,True,20642,92,6,42,6,False
+389,assertive-programming-assignment-1_tmp_tmp3h_cj44u_FindRange.dfy,True,True,5845,518,0,0,3,False
+390,assertive-programming-assignment-1_tmp_tmp3h_cj44u_ProdAndCount.dfy,True,True,8770,665,10,4,2,False
+391,assertive-programming-assignment-1_tmp_tmp3h_cj44u_SearchAddends.dfy,True,True,2063,182,1,0,2,False
+392,bbfny_tmp_tmpw4m0jvl0_enjoying.dfy,True,True,2039,364,0,3,8,False
+393,circular-queue-implemetation_tmp_tmpnulfdc9l_Queue.dfy,True,True,8537,1082,0,0,12,False
+394,cmsc433_tmp_tmpe3ob3a0o_dafny_project1_p1-assignment-2.dfy,True,True,6308,452,0,0,18,False
+395,cs245-verification_tmp_tmp0h_nxhqp_A8_Q1.dfy,True,True,1563,149,0,3,1,False
+396,cs245-verification_tmp_tmp0h_nxhqp_A8_Q2.dfy,True,True,1674,0,0,0,1,True
+397,cs245-verification_tmp_tmp0h_nxhqp_Assignments_simple.dfy,True,True,540,0,0,0,1,True
+398,cs245-verification_tmp_tmp0h_nxhqp_SortingIssues_BubbleSortCode.dfy,True,False,691,0,0,0,1,True
+399,cs245-verification_tmp_tmp0h_nxhqp_SortingIssues_FirstAttempt.dfy,True,True,823,55,0,0,1,False
+400,cs245-verification_tmp_tmp0h_nxhqp_power.dfy,True,True,2310,150,0,4,1,False
+401,cs245-verification_tmp_tmp0h_nxhqp_quicksort-partition.dfy,True,True,1394,430,0,0,1,False
+402,cs357_tmp_tmpn4fsvwzs_lab7_question2.dfy,False,True,227,72,0,0,1,True
+403,cs357_tmp_tmpn4fsvwzs_lab7_question5.dfy,False,True,684,98,0,0,2,False
+404,cs686_tmp_tmpdhuh5dza_classNotes_notes-9-8-21.dfy,True,True,2361,655,0,0,4,True
+405,dafl_tmp_tmp_r3_8w3y_dafny_examples_dafny0_ContainerRanks.dfy,True,True,851,107,4,0,0,False
+406,dafl_tmp_tmp_r3_8w3y_dafny_examples_dafny0_DividedConstructors.dfy,False,True,3142,224,0,0,2,True
+407,dafl_tmp_tmp_r3_8w3y_dafny_examples_dafny0_ForallCompilationNewSyntax.dfy,True,False,2079,42,0,0,10,True
+408,dafl_tmp_tmp_r3_8w3y_dafny_examples_dafny0_InSetComprehension.dfy,True,True,1991,59,3,1,3,True
+409,dafl_tmp_tmp_r3_8w3y_dafny_examples_dafny0_PrecedenceLinter.dfy,True,True,11381,162,3,16,7,False
+410,dafl_tmp_tmp_r3_8w3y_dafny_examples_dafny0_SeqFromArray.dfy,True,False,2510,753,0,0,6,False
+411,dafl_tmp_tmp_r3_8w3y_dafny_examples_dafny0_SharedDestructorsCompile.dfy,True,False,1880,147,0,0,3,True
+412,dafl_tmp_tmp_r3_8w3y_dafny_examples_uiowa_binary-search.dfy,True,True,1793,143,1,0,1,False
+413,dafl_tmp_tmp_r3_8w3y_dafny_examples_uiowa_fibonacci.dfy,False,True,802,97,0,1,1,False
+414,dafl_tmp_tmp_r3_8w3y_dafny_examples_uiowa_find.dfy,True,True,1086,101,0,0,1,False
+415,dafl_tmp_tmp_r3_8w3y_dafny_examples_uiowa_modifying-arrays.dfy,True,True,2424,324,0,0,8,False
+416,dafleet_tmp_tmpa2e4kb9v_0001-0050_0001-two-sum.dfy,True,True,2564,261,0,0,1,False
+417,dafleet_tmp_tmpa2e4kb9v_0001-0050_0003-longest-substring-without-repeating-characters.dfy,False,True,6057,809,0,1,2,False
+418,dafleet_tmp_tmpa2e4kb9v_0001-0050_0005-longest-palindromic-substring.dfy,True,True,17316,3186,42,5,3,False
+419,dafny-aoc-2019_tmp_tmpj6suy_rv_parser_split.dfy,True,True,2385,193,0,4,0,False
+420,dafny-duck_tmp_tmplawbgxjo_ex3.dfy,True,True,1334,415,0,0,1,False
+421,dafny-duck_tmp_tmplawbgxjo_ex5.dfy,True,True,2103,1408,2,1,0,False
+422,dafny-duck_tmp_tmplawbgxjo_p1.dfy,False,True,503,119,0,1,1,False
+423,dafny-duck_tmp_tmplawbgxjo_p2.dfy,False,True,1210,150,0,1,2,False
+424,dafny-duck_tmp_tmplawbgxjo_p3.dfy,True,True,851,125,0,0,2,False
+425,dafny-duck_tmp_tmplawbgxjo_p4.dfy,True,True,1358,214,0,0,2,False
+426,dafny-duck_tmp_tmplawbgxjo_p6.dfy,False,True,1337,405,0,1,1,False
+427,dafny-exercise_tmp_tmpouftptir_absIt.dfy,False,True,1514,675,0,0,2,False
+428,dafny-exercise_tmp_tmpouftptir_appendArray.dfy,False,True,682,246,0,0,1,False
+429,dafny-exercise_tmp_tmpouftptir_countNeg.dfy,True,True,574,101,0,1,2,False
+430,dafny-exercise_tmp_tmpouftptir_filter.dfy,False,True,1139,190,0,0,2,True
+431,dafny-exercise_tmp_tmpouftptir_firstE.dfy,False,True,670,193,0,0,2,False
+432,dafny-exercise_tmp_tmpouftptir_maxArray.dfy,True,True,608,208,0,0,2,False
+433,dafny-exercise_tmp_tmpouftptir_prac1_ex1.dfy,True,False,429,53,0,0,1,True
+434,dafny-exercise_tmp_tmpouftptir_prac1_ex2.dfy,True,True,963,345,0,0,2,False
+435,dafny-exercise_tmp_tmpouftptir_prac3_ex2.dfy,False,True,648,200,0,0,2,False
+436,dafny-exercise_tmp_tmpouftptir_prac4_ex2.dfy,False,True,1817,733,0,0,2,False
+437,dafny-exercise_tmp_tmpouftptir_reverse.dfy,True,True,670,168,0,0,2,False
+438,dafny-exercise_tmp_tmpouftptir_zapNegatives.dfy,False,True,704,287,0,0,2,False
+439,dafny-exercises_tmp_tmp5mvrowrx_leetcode_26-remove-duplicates-from-sorted-array.dfy,True,True,2472,612,0,0,3,False
+440,dafny-exercises_tmp_tmp5mvrowrx_paper_krml190.dfy,True,True,3307,419,0,1,4,False
+441,dafny-language-server_tmp_tmpkir0kenl_Test_LanguageServerTest_DafnyFiles_symbolTable_15_array.dfy,True,False,482,315,0,0,2,True
+442,dafny-language-server_tmp_tmpkir0kenl_Test_VSComp2010_Problem1-SumMax.dfy,True,True,1137,35,0,0,3,False
+443,dafny-language-server_tmp_tmpkir0kenl_Test_VSI-Benchmarks_b1.dfy,False,True,1298,82,0,0,5,False
+444,dafny-language-server_tmp_tmpkir0kenl_Test_VSI-Benchmarks_b2.dfy,True,True,1418,147,0,0,3,False
+445,dafny-language-server_tmp_tmpkir0kenl_Test_allocated1_dafny0_fun-with-slices.dfy,True,True,1715,112,0,0,1,False
+446,dafny-language-server_tmp_tmpkir0kenl_Test_comp_Arrays.dfy,True,True,2395,23,0,0,7,False
+447,dafny-language-server_tmp_tmpkir0kenl_Test_dafny0_FuelTriggers.dfy,True,False,522,12,0,0,1,True
+448,dafny-language-server_tmp_tmpkir0kenl_Test_dafny0_snapshots_Inputs_Snapshots0.dfy,False,True,74,13,0,0,2,False
+449,dafny-language-server_tmp_tmpkir0kenl_Test_dafny1_Cubes.dfy,False,True,533,150,0,0,1,False
+450,dafny-language-server_tmp_tmpkir0kenl_Test_dafny1_ListReverse.dfy,True,True,924,222,0,0,1,False
+451,dafny-language-server_tmp_tmpkir0kenl_Test_dafny1_MatrixFun.dfy,True,True,2783,570,0,0,4,False
+452,dafny-language-server_tmp_tmpkir0kenl_Test_dafny2_COST-verif-comp-2011-1-MaxArray.dfy,True,True,3121,162,0,1,2,False
+453,dafny-language-server_tmp_tmpkir0kenl_Test_dafny2_Intervals.dfy,True,True,1850,301,0,1,3,False
+454,dafny-language-server_tmp_tmpkir0kenl_Test_dafny2_SegmentSum.dfy,True,True,910,235,0,1,1,False
+455,dafny-language-server_tmp_tmpkir0kenl_Test_dafny2_TreeBarrier.dfy,True,False,4030,638,0,3,2,False
+456,dafny-language-server_tmp_tmpkir0kenl_Test_dafny2_TuringFactorial.dfy,True,True,571,119,0,1,1,False
+457,dafny-language-server_tmp_tmpkir0kenl_Test_dafny3_InductionVsCoinduction.dfy,True,True,4092,324,9,6,3,False
+458,dafny-language-server_tmp_tmpkir0kenl_Test_dafny4_Bug144.dfy,True,False,464,91,0,0,3,True
+459,dafny-language-server_tmp_tmpkir0kenl_Test_dafny4_Bug165.dfy,False,True,416,36,0,1,2,True
+460,dafny-language-server_tmp_tmpkir0kenl_Test_dafny4_Bug58.dfy,True,False,370,12,1,2,0,True
+461,dafny-language-server_tmp_tmpkir0kenl_Test_dafny4_Bug92.dfy,True,False,1881,246,9,6,0,True
+462,dafny-language-server_tmp_tmpkir0kenl_Test_dafny4_Fstar-QuickSort.dfy,True,True,4187,259,1,5,0,False
+463,dafny-language-server_tmp_tmpkir0kenl_Test_dafny4_Lucas-down.dfy,True,True,3858,57,11,5,0,False
+464,dafny-language-server_tmp_tmpkir0kenl_Test_dafny4_MonadicLaws.dfy,False,True,2071,79,6,3,0,False
+465,dafny-language-server_tmp_tmpkir0kenl_Test_dafny4_Regression19.dfy,True,True,1327,336,2,0,1,True
+466,dafny-language-server_tmp_tmpkir0kenl_Test_dafny4_git-issue133.dfy,True,True,991,47,3,0,1,True
+467,dafny-language-server_tmp_tmpkir0kenl_Test_dafny4_git-issue40.dfy,False,True,477,37,1,1,0,True
+468,dafny-language-server_tmp_tmpkir0kenl_Test_dafny4_git-issue41.dfy,True,True,1479,147,11,5,0,True
+469,dafny-language-server_tmp_tmpkir0kenl_Test_dafny4_git-issue67.dfy,False,True,491,33,0,0,2,True
+470,dafny-language-server_tmp_tmpkir0kenl_Test_dafny4_git-issue74.dfy,False,True,275,33,1,1,0,True
+471,dafny-language-server_tmp_tmpkir0kenl_Test_dafny4_git-issue76.dfy,True,False,639,163,0,0,8,True
+472,dafny-language-server_tmp_tmpkir0kenl_Test_git-issues_git-issue-336.dfy,True,False,785,144,4,0,0,False
+473,dafny-language-server_tmp_tmpkir0kenl_Test_hofs_Compilation.dfy,True,True,1068,73,0,0,1,False
+474,dafny-language-server_tmp_tmpkir0kenl_Test_hofs_Requires.dfy,True,True,1514,352,2,2,7,False
+475,dafny-language-server_tmp_tmpkir0kenl_Test_hofs_SumSum.dfy,True,True,4745,0,12,2,0,True
+476,dafny-language-server_tmp_tmpkir0kenl_Test_hofs_WhileLoop.dfy,True,False,1244,310,0,0,4,True
+477,dafny-language-server_tmp_tmpkir0kenl_Test_triggers_auto-triggers-fix-an-issue-listed-in-the-ironclad-notebook.dfy,True,False,941,38,1,1,0,True
+478,dafny-language-server_tmp_tmpkir0kenl_Test_triggers_function-applications-are-triggers.dfy,True,False,553,30,0,1,1,False
+479,dafny-language-server_tmp_tmpkir0kenl_Test_triggers_large-quantifiers-dont-break-dafny.dfy,False,True,1998,514,0,0,1,True
+480,dafny-language-server_tmp_tmpkir0kenl_Test_triggers_loop-detection-looks-at-ranges-too.dfy,True,False,495,92,0,0,1,True
+481,dafny-language-server_tmp_tmpkir0kenl_Test_tutorial_maximum.dfy,True,True,1091,101,3,2,1,False
+482,dafny-language-server_tmp_tmpkir0kenl_Test_vacid0_Composite.dfy,True,True,5696,443,0,2,7,False
+483,dafny-language-server_tmp_tmpkir0kenl_Test_vstte2012_Two-Way-Sort.dfy,True,True,1952,175,0,2,4,False
+484,dafny-learn_tmp_tmpn94ir40q_R01_assertions.dfy,False,True,906,84,0,0,7,True
+485,dafny-learn_tmp_tmpn94ir40q_R01_functions.dfy,False,True,890,61,0,5,5,False
+486,dafny-mini-project_tmp_tmpjxr3wzqh_src_project2a.dfy,True,True,6401,11,0,1,13,True
+487,dafny-programs_tmp_tmpcwodh6qh_src_expt.dfy,True,True,532,55,1,1,1,False
+488,dafny-programs_tmp_tmpcwodh6qh_src_factorial.dfy,False,True,439,139,0,1,1,False
+489,dafny-programs_tmp_tmpcwodh6qh_src_max.dfy,False,True,372,41,0,1,3,True
+490,dafny-programs_tmp_tmpcwodh6qh_src_ticketsystem.dfy,True,True,3675,23,1,2,5,True
+491,dafny-rope_tmp_tmpl4v_njmy_Rope.dfy,True,True,9882,589,3,2,9,False
+492,dafny-sandbox_tmp_tmp3tu2bu8a_Stlc.dfy,True,True,15422,1500,27,9,0,False
+493,dafny-synthesis_task_id_101.dfy,True,True,155,0,0,0,1,True
+494,dafny-synthesis_task_id_105.dfy,True,True,527,73,0,1,1,False
+495,dafny-synthesis_task_id_106.dfy,True,True,523,158,0,0,1,False
+496,dafny-synthesis_task_id_113.dfy,False,True,536,87,0,0,1,False
+497,dafny-synthesis_task_id_126.dfy,True,True,533,135,0,0,1,False
+498,dafny-synthesis_task_id_127.dfy,False,True,102,0,0,0,1,True
+499,dafny-synthesis_task_id_133.dfy,True,True,570,80,0,1,1,False
+500,dafny-synthesis_task_id_135.dfy,True,True,152,0,0,0,1,True
+501,dafny-synthesis_task_id_139.dfy,True,True,227,0,0,0,1,True
+502,dafny-synthesis_task_id_14.dfy,True,True,256,0,0,0,1,True
+503,dafny-synthesis_task_id_142.dfy,True,True,343,0,0,0,1,True
+504,dafny-synthesis_task_id_143.dfy,False,True,144,0,0,0,1,True
+505,dafny-synthesis_task_id_145.dfy,True,True,569,123,0,0,1,False
+506,dafny-synthesis_task_id_161.dfy,False,True,814,158,0,0,1,False
+507,dafny-synthesis_task_id_17.dfy,True,True,145,0,0,0,1,True
+508,dafny-synthesis_task_id_170.dfy,True,True,656,76,0,1,1,False
+509,dafny-synthesis_task_id_171.dfy,True,True,147,0,0,0,1,True
+510,dafny-synthesis_task_id_18.dfy,False,True,589,181,0,0,1,False
+511,dafny-synthesis_task_id_2.dfy,False,True,810,157,0,0,1,False
+512,dafny-synthesis_task_id_227.dfy,False,True,296,0,0,0,1,True
+513,dafny-synthesis_task_id_230.dfy,False,True,571,143,0,0,1,False
+514,dafny-synthesis_task_id_233.dfy,True,True,223,0,0,0,1,True
+515,dafny-synthesis_task_id_234.dfy,True,True,151,0,0,0,1,True
+516,dafny-synthesis_task_id_238.dfy,False,True,230,0,0,0,1,True
+517,dafny-synthesis_task_id_240.dfy,True,True,373,0,0,0,1,True
+518,dafny-synthesis_task_id_242.dfy,False,True,124,0,0,0,1,True
+519,dafny-synthesis_task_id_249.dfy,False,True,811,159,0,0,1,False
+520,dafny-synthesis_task_id_251.dfy,False,True,446,115,0,0,1,False
+521,dafny-synthesis_task_id_257.dfy,False,True,160,0,0,0,1,True
+522,dafny-synthesis_task_id_261.dfy,True,True,518,107,0,0,1,False
+523,dafny-synthesis_task_id_262.dfy,True,True,305,0,0,0,1,True
+524,dafny-synthesis_task_id_264.dfy,True,True,160,0,0,0,1,True
+525,dafny-synthesis_task_id_266.dfy,True,True,147,0,0,0,1,True
+526,dafny-synthesis_task_id_267.dfy,True,True,373,95,0,0,1,False
+527,dafny-synthesis_task_id_268.dfy,True,True,142,0,0,0,1,True
+528,dafny-synthesis_task_id_269.dfy,False,True,104,0,0,0,1,True
+529,dafny-synthesis_task_id_273.dfy,True,True,464,107,0,0,1,False
+530,dafny-synthesis_task_id_276.dfy,True,True,247,0,0,0,1,True
+531,dafny-synthesis_task_id_279.dfy,True,True,161,0,0,0,1,True
+532,dafny-synthesis_task_id_282.dfy,True,True,592,124,0,0,1,False
+533,dafny-synthesis_task_id_284.dfy,True,True,473,85,0,0,1,False
+534,dafny-synthesis_task_id_290.dfy,True,True,470,116,0,0,1,False
+535,dafny-synthesis_task_id_292.dfy,True,True,126,0,0,0,1,True
+536,dafny-synthesis_task_id_3.dfy,True,True,406,76,0,0,1,False
+537,dafny-synthesis_task_id_304.dfy,True,True,237,0,0,0,1,True
+538,dafny-synthesis_task_id_307.dfy,False,True,390,100,0,0,1,False
+539,dafny-synthesis_task_id_309.dfy,False,True,221,0,0,0,1,True
+540,dafny-synthesis_task_id_310.dfy,False,True,332,97,0,0,1,False
+541,dafny-synthesis_task_id_312.dfy,True,True,279,0,0,0,1,True
+542,dafny-synthesis_task_id_396.dfy,True,True,166,0,0,0,1,True
+543,dafny-synthesis_task_id_397.dfy,False,True,518,0,0,0,1,True
+544,dafny-synthesis_task_id_399.dfy,True,True,460,107,0,0,1,False
+545,dafny-synthesis_task_id_401.dfy,True,True,1060,333,0,0,1,False
+546,dafny-synthesis_task_id_404.dfy,False,True,221,0,0,0,1,True
+547,dafny-synthesis_task_id_406.dfy,False,True,108,0,0,0,1,True
+548,dafny-synthesis_task_id_412.dfy,False,True,887,224,0,0,1,False
+549,dafny-synthesis_task_id_414.dfy,False,True,406,91,0,0,1,False
+550,dafny-synthesis_task_id_424.dfy,True,True,498,118,0,0,1,False
+551,dafny-synthesis_task_id_426.dfy,False,True,866,217,0,0,1,False
+552,dafny-synthesis_task_id_430.dfy,True,True,186,0,0,0,1,True
+553,dafny-synthesis_task_id_431.dfy,True,True,761,202,0,0,1,False
+554,dafny-synthesis_task_id_432.dfy,True,True,150,0,0,0,1,True
+555,dafny-synthesis_task_id_433.dfy,True,True,562,141,0,0,1,False
+556,dafny-synthesis_task_id_435.dfy,True,True,130,0,0,0,1,True
+557,dafny-synthesis_task_id_436.dfy,False,True,972,252,0,0,1,False
+558,dafny-synthesis_task_id_441.dfy,True,True,144,0,0,0,1,True
+559,dafny-synthesis_task_id_445.dfy,True,True,463,107,0,0,1,False
+560,dafny-synthesis_task_id_447.dfy,False,True,494,139,0,0,1,False
+561,dafny-synthesis_task_id_452.dfy,True,True,365,0,0,0,1,True
+562,dafny-synthesis_task_id_454.dfy,False,True,408,101,0,0,1,False
+563,dafny-synthesis_task_id_455.dfy,True,True,195,0,0,0,1,True
+564,dafny-synthesis_task_id_457.dfy,True,True,488,128,0,0,1,False
+565,dafny-synthesis_task_id_458.dfy,True,True,179,0,0,0,1,True
+566,dafny-synthesis_task_id_460.dfy,True,True,458,107,0,0,1,False
+567,dafny-synthesis_task_id_461.dfy,False,True,307,0,0,0,1,True
+568,dafny-synthesis_task_id_470.dfy,True,True,599,140,0,0,1,False
+569,dafny-synthesis_task_id_472.dfy,True,True,458,102,0,0,1,False
+570,dafny-synthesis_task_id_474.dfy,False,True,617,156,0,0,1,False
+571,dafny-synthesis_task_id_476.dfy,True,True,1194,246,0,3,1,False
+572,dafny-synthesis_task_id_477.dfy,False,True,867,202,0,1,1,False
+573,dafny-synthesis_task_id_554.dfy,False,True,862,217,0,0,1,False
+574,dafny-synthesis_task_id_555.dfy,True,True,503,115,0,0,1,False
+575,dafny-synthesis_task_id_557.dfy,False,True,1370,312,0,2,1,False
+576,dafny-synthesis_task_id_565.dfy,False,True,331,90,0,0,1,False
+577,dafny-synthesis_task_id_566.dfy,True,True,4175,1172,4,8,1,False
+578,dafny-synthesis_task_id_567.dfy,True,True,598,155,0,0,1,True
+579,dafny-synthesis_task_id_572.dfy,True,True,606,163,0,0,1,False
+580,dafny-synthesis_task_id_573.dfy,True,True,1558,135,1,1,1,False
+581,dafny-synthesis_task_id_574.dfy,True,True,270,0,0,0,1,True
+582,dafny-synthesis_task_id_576.dfy,False,True,491,110,0,0,1,True
+583,dafny-synthesis_task_id_577.dfy,True,True,352,0,0,1,1,True
+584,dafny-synthesis_task_id_578.dfy,True,True,518,144,0,0,1,False
+585,dafny-synthesis_task_id_579.dfy,False,True,1356,447,0,0,1,False
+586,dafny-synthesis_task_id_58.dfy,False,True,174,0,0,0,1,True
+587,dafny-synthesis_task_id_581.dfy,True,True,254,0,0,0,1,True
+588,dafny-synthesis_task_id_586.dfy,True,True,300,0,0,0,1,True
+589,dafny-synthesis_task_id_587.dfy,True,True,367,95,0,0,1,False
+590,dafny-synthesis_task_id_588.dfy,True,True,1206,246,0,3,1,False
+591,dafny-synthesis_task_id_59.dfy,True,True,175,0,0,0,1,True
+592,dafny-synthesis_task_id_591.dfy,True,True,317,0,0,0,1,True
+593,dafny-synthesis_task_id_594.dfy,True,True,1455,471,0,0,1,False
+594,dafny-synthesis_task_id_598.dfy,True,True,364,0,0,0,1,True
+595,dafny-synthesis_task_id_599.dfy,True,True,348,57,0,0,1,False
+596,dafny-synthesis_task_id_600.dfy,False,True,109,0,0,0,1,True
+597,dafny-synthesis_task_id_602.dfy,False,True,1465,470,0,0,1,False
+598,dafny-synthesis_task_id_603.dfy,True,True,671,214,0,0,1,False
+599,dafny-synthesis_task_id_605.dfy,True,True,405,77,0,0,1,False
+600,dafny-synthesis_task_id_606.dfy,False,True,187,0,0,0,1,True
+601,dafny-synthesis_task_id_61.dfy,False,True,712,86,0,0,1,True
+602,dafny-synthesis_task_id_610.dfy,True,True,750,247,0,0,1,False
+603,dafny-synthesis_task_id_616.dfy,True,True,644,124,0,0,1,False
+604,dafny-synthesis_task_id_618.dfy,True,True,484,107,0,0,1,False
+605,dafny-synthesis_task_id_62.dfy,True,True,427,123,0,0,1,False
+606,dafny-synthesis_task_id_622.dfy,True,True,544,0,0,0,1,True
+607,dafny-synthesis_task_id_623.dfy,True,True,575,110,0,1,1,False
+608,dafny-synthesis_task_id_624.dfy,False,True,879,202,0,1,1,False
+609,dafny-synthesis_task_id_625.dfy,True,True,311,0,0,0,1,True
+610,dafny-synthesis_task_id_626.dfy,True,True,166,0,0,0,1,True
+611,dafny-synthesis_task_id_627.dfy,True,True,703,181,0,0,1,False
+612,dafny-synthesis_task_id_629.dfy,False,True,830,224,0,0,1,False
+613,dafny-synthesis_task_id_632.dfy,True,True,3162,735,0,1,2,False
+614,dafny-synthesis_task_id_637.dfy,True,True,220,0,0,0,1,True
+615,dafny-synthesis_task_id_641.dfy,True,True,156,0,0,0,1,True
+616,dafny-synthesis_task_id_644.dfy,True,True,959,379,0,0,2,False
+617,dafny-synthesis_task_id_69.dfy,False,True,409,90,0,0,1,False
+618,dafny-synthesis_task_id_70.dfy,False,True,588,109,0,0,1,False
+619,dafny-synthesis_task_id_728.dfy,True,True,423,107,0,0,1,False
+620,dafny-synthesis_task_id_732.dfy,False,True,688,165,0,0,1,False
+621,dafny-synthesis_task_id_733.dfy,True,True,857,215,0,0,1,False
+622,dafny-synthesis_task_id_741.dfy,False,True,578,88,0,0,1,False
+623,dafny-synthesis_task_id_743.dfy,True,True,469,120,0,0,1,False
+624,dafny-synthesis_task_id_750.dfy,False,True,216,0,0,0,1,True
+625,dafny-synthesis_task_id_751.dfy,True,True,696,145,0,0,1,False
+626,dafny-synthesis_task_id_755.dfy,True,True,1572,259,0,2,1,False
+627,dafny-synthesis_task_id_759.dfy,False,True,521,104,0,0,1,False
+628,dafny-synthesis_task_id_760.dfy,True,True,632,96,0,0,1,False
+629,dafny-synthesis_task_id_762.dfy,True,True,240,0,0,0,1,True
+630,dafny-synthesis_task_id_764.dfy,False,True,289,0,0,0,1,True
+631,dafny-synthesis_task_id_769.dfy,False,True,523,151,0,0,1,False
+632,dafny-synthesis_task_id_77.dfy,False,True,116,0,0,0,1,True
+633,dafny-synthesis_task_id_770.dfy,True,True,444,128,0,0,1,False
+634,dafny-synthesis_task_id_775.dfy,False,True,477,103,0,0,1,False
+635,dafny-synthesis_task_id_776.dfy,False,True,376,0,0,0,1,True
+636,dafny-synthesis_task_id_784.dfy,True,True,1906,151,0,0,2,False
+637,dafny-synthesis_task_id_79.dfy,False,True,121,0,0,0,1,True
+638,dafny-synthesis_task_id_790.dfy,False,True,483,104,0,0,1,False
+639,dafny-synthesis_task_id_792.dfy,False,True,138,0,0,0,1,True
+640,dafny-synthesis_task_id_793.dfy,True,True,710,195,0,0,1,False
+641,dafny-synthesis_task_id_798.dfy,True,True,446,71,0,1,1,False
+642,dafny-synthesis_task_id_799.dfy,True,True,185,0,0,0,1,True
+643,dafny-synthesis_task_id_8.dfy,False,True,442,126,0,0,1,False
+644,dafny-synthesis_task_id_80.dfy,True,True,152,0,0,0,1,True
+645,dafny-synthesis_task_id_801.dfy,False,True,495,0,0,0,1,True
+646,dafny-synthesis_task_id_803.dfy,True,True,407,67,0,0,1,True
+647,dafny-synthesis_task_id_804.dfy,False,True,434,88,0,0,1,False
+648,dafny-synthesis_task_id_807.dfy,True,True,731,186,0,0,1,False
+649,dafny-synthesis_task_id_808.dfy,False,True,330,82,0,0,1,False
+650,dafny-synthesis_task_id_809.dfy,True,True,541,144,0,0,1,False
+651,dafny-synthesis_task_id_82.dfy,True,True,223,0,0,0,1,True
+652,dafny-synthesis_task_id_85.dfy,True,True,216,0,0,0,1,True
+653,dafny-synthesis_task_id_86.dfy,True,True,161,0,0,0,1,True
+654,dafny-synthesis_task_id_89.dfy,True,True,108,0,0,0,1,True
+655,dafny-synthesis_task_id_94.dfy,True,True,672,129,0,0,1,False
+656,dafny-synthesis_task_id_95.dfy,True,True,453,118,0,0,1,False
+657,dafny-training_tmp_tmp_n2kixni_session1_training1.dfy,True,True,5516,63,0,0,10,False
+658,dafny-workout_tmp_tmp0abkw6f8_starter_ex01.dfy,False,True,371,71,0,0,2,True
+659,dafny-workout_tmp_tmp0abkw6f8_starter_ex02.dfy,True,True,155,14,0,0,2,True
+660,dafny-workout_tmp_tmp0abkw6f8_starter_ex03.dfy,True,True,397,31,0,0,3,True
+661,dafny-workout_tmp_tmp0abkw6f8_starter_ex09.dfy,False,True,456,100,0,1,2,False
+662,dafny-workout_tmp_tmp0abkw6f8_starter_ex12.dfy,True,True,733,193,0,0,2,False
+663,dafny_examples_tmp_tmp8qotd4ez_leetcode_0001-two-sum.dfy,False,True,1167,237,0,0,1,False
+664,dafny_examples_tmp_tmp8qotd4ez_leetcode_0027-remove-element.dfy,False,True,701,186,0,0,1,False
+665,dafny_examples_tmp_tmp8qotd4ez_leetcode_0069-sqrt.dfy,True,True,712,95,1,0,1,False
+666,dafny_examples_tmp_tmp8qotd4ez_leetcode_0070-climbing-stairs.dfy,False,True,386,78,0,1,1,False
+667,dafny_examples_tmp_tmp8qotd4ez_leetcode_0277-find-the-celebrity.dfy,True,True,1542,244,1,0,2,False
+668,dafny_examples_tmp_tmp8qotd4ez_lib_math_DivMod.dfy,True,True,1958,80,8,2,0,False
+669,dafny_examples_tmp_tmp8qotd4ez_test_shuffle.dfy,True,True,2489,199,4,1,4,False
+670,dafny_experiments_tmp_tmpz29_3_3i_circuit.dfy,True,True,14664,281,5,12,0,False
+671,dafny_misc_tmp_tmpg4vzlnm1_rosetta_code_factorial.dfy,False,True,414,56,0,1,1,False
+672,dafny_misc_tmp_tmpg4vzlnm1_rosetta_code_fibonacci_sequence.dfy,False,True,532,77,0,1,1,False
+673,dafny_projects_tmp_tmpjutqwjv4_tutorial_tutorial.dfy,True,True,4858,595,4,3,4,False
+674,dafny_tmp_tmp2ewu6s7x_ListReverse.dfy,False,True,1260,31,2,1,0,False
+675,dafny_tmp_tmp49a6ihvk_m4.dfy,False,True,866,241,0,0,1,False
+676,dafny_tmp_tmp59p638nn_examples_GenericSelectionSort.dfy,True,True,3546,504,0,3,4,False
+677,dafny_tmp_tmp59p638nn_examples_SelectionSort.dfy,True,True,1768,298,0,0,2,False
+678,dafny_tmp_tmp59p638nn_examples_derangement.dfy,True,True,2750,682,0,1,2,False
+679,dafny_tmp_tmp59p638nn_examples_minmax2.dfy,True,True,1079,246,0,2,1,False
+680,dafny_tmp_tmp59p638nn_examples_realExponent.dfy,True,True,1719,250,6,2,1,False
+681,eth2-dafny_tmp_tmpcrgexrgb_src_dafny_utils_SetHelpers.dfy,True,True,5164,213,6,0,0,False
+682,feup-mfes_tmp_tmp6_a1y5a5_examples_SelectionSort.dfy,True,True,1967,454,0,0,4,False
+683,formal-methods-in-software-engineering_tmp_tmpe7fjnek6_Labs2_gr2.dfy,True,True,3003,139,16,4,0,True
+684,formal-methods-in-software-engineering_tmp_tmpe7fjnek6_Labs2_hw1.dfy,True,True,801,33,1,1,0,True
+685,formal-methods-in-software-engineering_tmp_tmpe7fjnek6_Labs4_gr2.dfy,True,True,4261,615,2,2,10,False
+686,formal-verification_tmp_tmpoepcssay_strings3.dfy,True,True,3799,566,5,0,4,False
+687,formal_verication_dafny_tmp_tmpwgl2qz28_Challenges_ex1.dfy,False,True,2246,262,0,1,6,False
+688,formal_verication_dafny_tmp_tmpwgl2qz28_Challenges_ex2.dfy,True,True,1435,184,0,0,9,True
+689,formal_verication_dafny_tmp_tmpwgl2qz28_Challenges_ex6.dfy,True,True,2286,492,0,4,2,False
+690,formal_verication_dafny_tmp_tmpwgl2qz28_Challenges_ex7.dfy,True,True,3535,877,0,0,4,False
+691,fv2020-tms_tmp_tmpnp85b47l_modeling_concurrency_safety.dfy,True,True,4887,195,2,1,7,False
+692,fv2020-tms_tmp_tmpnp85b47l_simple_tm.dfy,True,True,18955,223,0,1,1,False
+693,groupTheory_tmp_tmppmmxvu8h_assignment1.dfy,False,True,5623,1237,10,0,0,False
+694,groupTheory_tmp_tmppmmxvu8h_tutorial2.dfy,True,True,934,230,6,0,1,True
+695,groupTheory_tmp_tmppmmxvu8h_yair_yair2.dfy,True,True,1303,92,4,2,0,False
+696,iron-sync_tmp_tmps49o3tyz_Impl_CommitterCommitModel.dfy,True,True,28736,0,12,11,0,False
+697,iron-sync_tmp_tmps49o3tyz_concurrency_docs_code_ShardedStateMachine.dfy,True,True,1655,0,7,3,0,True
+698,iron-sync_tmp_tmps49o3tyz_lib_Base_MapRemove.dfy,False,True,984,31,0,1,1,False
+699,ironsync-osdi2023_tmp_tmpx80antoe_lib_Marshalling_Math.dfy,True,True,5680,467,42,2,0,False
+700,ironsync-osdi2023_tmp_tmpx80antoe_lib_Math_div_def.dfy,True,False,2146,195,0,14,1,False
+701,ironsync-osdi2023_tmp_tmpx80antoe_linear-dafny_Test_c++_arrays.dfy,True,True,1877,18,0,0,5,False
+702,ironsync-osdi2023_tmp_tmpx80antoe_linear-dafny_Test_c++_maps.dfy,True,True,5460,175,0,0,9,True
+703,ironsync-osdi2023_tmp_tmpx80antoe_linear-dafny_Test_c++_sets.dfy,True,False,3163,52,0,0,9,True
+704,ironsync-osdi2023_tmp_tmpx80antoe_linear-dafny_Test_git-issues_git-issue-1158.dfy,False,True,503,61,1,1,0,False
+705,ironsync-osdi2023_tmp_tmpx80antoe_linear-dafny_Test_git-issues_git-issue-283.dfy,False,True,3455,139,0,0,9,True
+706,ironsync-osdi2023_tmp_tmpx80antoe_linear-dafny_Test_git-issues_git-issue-506.dfy,False,True,1812,337,0,0,1,True
+707,ironsync-osdi2023_tmp_tmpx80antoe_linear-dafny_Test_git-issues_git-issue-975.dfy,False,True,224,17,0,1,1,False
+708,ironsync-osdi2023_tmp_tmpx80antoe_linear-dafny_docs_DafnyRef_examples_Example-Old.dfy,True,False,781,276,0,0,1,False
+709,ironsync-osdi2023_tmp_tmpx80antoe_linear-dafny_docs_DafnyRef_examples_Example-Old2.dfy,True,True,953,409,0,0,1,False
+710,ironsync-osdi2023_tmp_tmpx80antoe_linear-dafny_docs_DafnyRef_examples_Example-Old3.dfy,True,False,586,206,0,0,1,True
+711,laboratory_tmp_tmps8ws6mu2_dafny-tutorial_exercise12.dfy,True,True,734,151,0,0,2,False
+712,laboratory_tmp_tmps8ws6mu2_dafny-tutorial_exercise9.dfy,False,True,585,67,0,1,2,False
+713,lets-prove-blocking-queue_tmp_tmptd_aws1k_dafny_prod-cons.dfy,True,True,4636,101,2,0,2,True
+714,libraries_tmp_tmp9gegwhqj_examples_MutableMap_MutableMapDafny.dfy,True,True,5095,330,0,13,4,False
+715,llm-verified-eval_tmp_tmpd2deqn_i_dafny_0.dfy,False,True,1257,166,0,1,1,False
+716,llm-verified-eval_tmp_tmpd2deqn_i_dafny_160.dfy,True,False,1014,74,0,1,1,False
+717,llm-verified-eval_tmp_tmpd2deqn_i_dafny_161.dfy,True,True,1829,251,0,4,2,False
+718,llm-verified-eval_tmp_tmpd2deqn_i_dafny_3.dfy,True,True,684,80,1,1,1,False
+719,llm-verified-eval_tmp_tmpd2deqn_i_dafny_5.dfy,False,True,907,192,0,0,1,False
+720,llm-verified-eval_tmp_tmpd2deqn_i_dafny_9.dfy,True,True,945,159,0,1,2,False
+721,metodosFormais_tmp_tmp4q2kmya4_T1-MetodosFormais_examples_ex1.dfy,False,True,504,96,0,0,1,False
+722,metodosFormais_tmp_tmp4q2kmya4_T1-MetodosFormais_examples_somatoriov2.dfy,True,True,350,33,0,1,1,False
+723,nitwit_tmp_tmplm098gxz_nit.dfy,True,True,9245,737,0,0,10,False
+724,paxos_proof_tmp_tmpxpmiksmt_triggers.dfy,True,False,276,22,1,0,0,True
+725,protocol-verification-fa2023_tmp_tmpw6hy3mjp_demos_ch01_fast_exp.dfy,False,True,4081,881,4,3,1,False
+726,protocol-verification-fa2023_tmp_tmpw6hy3mjp_demos_ch03_nim_v3.dfy,True,True,2659,114,3,1,0,False
+727,protocol-verification-fa2023_tmp_tmpw6hy3mjp_demos_ch04_inductive_chain.dfy,True,True,5288,79,5,0,0,True
+728,protocol-verification-fa2023_tmp_tmpw6hy3mjp_demos_ch04_invariant_proof.dfy,True,True,2352,85,5,0,0,False
+729,protocol-verification-fa2023_tmp_tmpw6hy3mjp_demos_ch04_leader_election.dfy,True,True,7698,836,7,2,0,False
+730,protocol-verification-fa2023_tmp_tmpw6hy3mjp_demos_ch04_toy_consensus.dfy,True,True,4386,79,5,1,0,False
+731,protocol-verification-fa2023_tmp_tmpw6hy3mjp_demos_ch06_refinement_proof.dfy,True,True,3534,29,7,2,0,False
+732,protocol-verification-fa2023_tmp_tmpw6hy3mjp_demos_dafny-internals_02-triggers_triggers2.dfy,False,True,525,80,5,2,0,True
+733,protocol-verification-fa2023_tmp_tmpw6hy3mjp_demos_dafny-internals_03-encoding_lemma_call.dfy,True,True,237,18,3,1,0,True
+734,protocol-verification-fa2023_tmp_tmpw6hy3mjp_demos_dafny-internals_03-encoding_pair.dfy,False,True,2249,249,5,7,1,False
+735,protocol-verification-fa2023_tmp_tmpw6hy3mjp_exercises_chapter04-invariants_ch03exercise03.dfy,True,True,5105,220,2,0,0,False
+736,pucrs-metodos-formais-t1_tmp_tmp7gvq3cw4_fila.dfy,True,True,4518,793,0,2,5,False
+737,repo-8967-Ironclad_tmp_tmp4q25en_1_ironclad-apps_src_Dafny_Libraries_Util_seqs_simple.dfy,True,True,1784,49,20,0,0,False
+738,sat_dfy_tmp_tmpfcyj8am9_dfy_Seq.dfy,True,True,2885,1088,2,1,0,False
+739,se2011_tmp_tmp71eb82zt_ass1_ex4.dfy,True,True,473,48,0,0,1,False
+740,se2011_tmp_tmp71eb82zt_ass1_ex6.dfy,True,True,318,74,0,0,2,True
+741,se2011_tmp_tmp71eb82zt_ass2_ex2.dfy,True,True,1951,286,0,0,4,True
+742,software-specification-p1_tmp_tmpz9x6mpxb_BoilerPlate_Ex1.dfy,True,True,5389,680,2,3,6,False
+743,software_analysis_tmp_tmpmt6bo9sf_ss.dfy,True,True,2021,398,0,0,2,False
+744,specTesting_tmp_tmpueam35lx_examples_binary_search_binary_search_specs.dfy,True,True,5675,332,6,0,0,False
+745,specTesting_tmp_tmpueam35lx_examples_increment_decrement_spec.dfy,True,True,2293,164,2,1,0,False
+746,specTesting_tmp_tmpueam35lx_examples_max_max.dfy,True,True,2316,20,15,1,0,False
+747,specTesting_tmp_tmpueam35lx_examples_sort_sort.dfy,True,True,2673,527,5,0,1,False
+748,stunning-palm-tree_tmp_tmpr84c2iwh_ch1.dfy,True,True,1506,117,0,1,9,True
+749,stunning-palm-tree_tmp_tmpr84c2iwh_ch10.dfy,True,True,11135,1015,7,6,1,False
+750,stunning-palm-tree_tmp_tmpr84c2iwh_ch5.dfy,True,True,12349,322,17,11,3,False
+751,stunning-palm-tree_tmp_tmpr84c2iwh_ch8.dfy,True,True,3975,550,6,6,0,True
+752,summer-school-2020_tmp_tmpn8nf7zf0_chapter01_solutions_exercise04_solution.dfy,True,False,639,131,3,3,0,True
+753,summer-school-2020_tmp_tmpn8nf7zf0_chapter01_solutions_exercise11_solution.dfy,True,True,2255,75,3,0,0,False
+754,summer-school-2020_tmp_tmpn8nf7zf0_chapter02_solutions_exercise01_solution.dfy,True,False,371,172,0,0,1,True
+755,summer-school-2020_tmp_tmpn8nf7zf0_chapter02_solutions_exercise02_solution.dfy,True,True,1252,120,0,0,2,False
+756,summer-school-2020_tmp_tmpn8nf7zf0_chapter02_solutions_exercise03_solution.dfy,True,True,3023,675,1,0,3,False
+757,t1_MF_tmp_tmpi_sqie4j_exemplos_classes_parte1_contadorV1b.dfy,False,True,1009,58,0,0,4,True
+758,t1_MF_tmp_tmpi_sqie4j_exemplos_colecoes_arrays_ex4.dfy,True,True,411,60,0,1,1,False
+759,t1_MF_tmp_tmpi_sqie4j_exemplos_colecoes_arrays_ex5.dfy,False,True,395,74,0,0,1,False
+760,t1_MF_tmp_tmpi_sqie4j_exemplos_colecoes_conjuntos_ex5.dfy,True,True,399,87,0,1,1,False
+761,t1_MF_tmp_tmpi_sqie4j_exemplos_colecoes_sequences_ex3.dfy,True,True,645,204,0,0,1,False
+762,t1_MF_tmp_tmpi_sqie4j_exemplos_introducao_ex4.dfy,False,True,287,42,0,1,1,False
+763,tangent-finder_tmp_tmpgyzf44ve_circles.dfy,True,True,1578,523,0,0,1,False
+764,test-generation-examples_tmp_tmptwyqofrp_IntegerSet_dafny_IntegerSet.dfy,True,True,7697,1199,0,2,6,False
+765,test-generation-examples_tmp_tmptwyqofrp_IntegerSet_dafny_Utils.dfy,True,True,573,0,0,0,6,True
+766,test-generation-examples_tmp_tmptwyqofrp_ParamTests_dafny_Utils.dfy,True,False,678,0,0,0,3,True
+767,test-generation-examples_tmp_tmptwyqofrp_RussianMultiplication_dafny_RussianMultiplication.dfy,False,True,484,49,0,0,1,False
+768,type-definition_tmp_tmp71kdzz3p_final.dfy,True,True,4087,143,1,1,0,True
+769,veri-sparse_tmp_tmp15fywna6_dafny_concurrent_poc_6.dfy,True,True,9496,818,7,2,4,False
+770,veri-sparse_tmp_tmp15fywna6_dafny_dspmspv.dfy,True,True,4808,826,0,4,2,False
+771,veri-sparse_tmp_tmp15fywna6_dafny_spmv.dfy,True,True,2512,446,0,1,2,False
+772,veri-titan_tmp_tmpbg2iy0kf_spec_crypto_fntt512.dfy,True,True,3919,0,10,0,3,False
+773,veribetrkv-osdi2020_tmp_tmpra431m8q_docker-hdd_src_veribetrkv-linear_lib_Base_SetBijectivity.dfy,True,True,1977,217,2,0,0,False
+774,veribetrkv-osdi2020_tmp_tmpra431m8q_docker-hdd_src_veribetrkv-linear_lib_Base_Sets.dfy,True,True,994,116,5,1,0,False
+775,verification-class_tmp_tmpz9ik148s_2022_chapter05-distributed-state-machines_exercises_UtilitiesLibrary.dfy,True,True,4089,65,7,8,0,False
+776,verified-isort_tmp_tmp7hhb8ei__dafny_isort.dfy,False,True,3634,0,0,1,1,True
+777,verified-using-dafny_tmp_tmp7jatpjyn_longestZero.dfy,True,True,2274,652,0,1,2,False
+778,vfag_tmp_tmpc29dxm1j_Verificacion_torneo.dfy,True,True,8315,6019,0,0,1,True
+779,vfag_tmp_tmpc29dxm1j_mergesort.dfy,True,False,2528,239,0,0,3,False
+780,vfag_tmp_tmpc29dxm1j_sumar_componentes.dfy,True,True,1507,779,0,1,1,False
+781,vmware-verification-2023_tmp_tmpoou5u54i_demos_leader_election.dfy,True,True,5084,299,3,2,0,False

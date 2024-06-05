@@ -1,0 +1,61 @@
+// RUN: %dafny /compile:0 /print:"%t.print" /dprint:"%t.dprint" /printTooltips "%s" > "%t"
+// RUN: %diff "%s.expect" "%t"
+
+// This test ensures that the trigger  collector (the routine that picks trigger
+// candidates) does not  actually consider all subsets of terms;  if it did, the
+// following would take horribly long
+
+predicate P0(x: bool)
+predicate P1(x: bool)
+predicate P2(x: bool)
+predicate P3(x: bool)
+predicate P4(x: bool)
+predicate P5(x: bool)
+predicate P6(x: bool)
+predicate P7(x: bool)
+predicate P8(x: bool)
+predicate P9(x: bool)
+predicate P10(x: bool)
+predicate P11(x: bool)
+predicate P12(x: bool)
+predicate P13(x: bool)
+predicate P14(x: bool)
+predicate P15(x: bool)
+predicate P16(x: bool)
+predicate P17(x: bool)
+predicate P18(x: bool)
+predicate P19(x: bool)
+predicate P20(x: bool)
+predicate P21(x: bool)
+predicate P22(x: bool)
+predicate P23(x: bool)
+predicate P24(x: bool)
+predicate P25(x: bool)
+predicate P26(x: bool)
+predicate P27(x: bool)
+predicate P28(x: bool)
+predicate P29(x: bool)
+predicate P30(x: bool)
+predicate P31(x: bool)
+predicate P32(x: bool)
+predicate P33(x: bool)
+predicate P34(x: bool)
+predicate P35(x: bool)
+predicate P36(x: bool)
+predicate P37(x: bool)
+predicate P38(x: bool)
+predicate P39(x: bool)
+predicate P40(x: bool)
+predicate P41(x: bool)
+predicate P42(x: bool)
+predicate P43(x: bool)
+predicate P44(x: bool)
+predicate P45(x: bool)
+predicate P46(x: bool)
+predicate P47(x: bool)
+predicate P48(x: bool)
+predicate P49(x: bool)
+
+method M() {
+}
+
