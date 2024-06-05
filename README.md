@@ -1,22 +1,26 @@
 # DafnyBench: A Benchmark for Formal Software Verification
 
 Dataset & code for our paper [DafnyBench: A Benchmark for Formal Software Verification]()
-<br>
+<br><br>
 
 ## Overview 📊
 
 DafnyBench is the largest benchmark of its kind for training and evaluating machine learning systems for formal software verification, with over 750 programs.
-<br>
+<br><br>
 
 
 ## Usage 💻
 
-- <b>Dataset</b>: The dataset for DafnyBench (with ~782 programs) could be found in the [`DafnyBench`](DafnyBench) directory, which contains the [`ground_truth`](DafnyBench/dataset/ground_truth/) set & the [`hints_removed`](DafnyBench/dataset/hints_removed) set (with compiler hints, i.e. annoataions, removed).
-- <b>Evaluation</b>: Evaluate LLMs on DafnyBench by asking models to fill in missing hints in a test file from the `hints_removed` set and checking if the reconstructed program could by verified by Dafny. Please refer to the [`eval`](evals) directory.
+- <b>Dataset</b>: The dataset for DafnyBench (with ~782 programs) could be found in the `DafnyBench` directory, which contains the `ground_truth` set & the `hints_removed`set (with compiler hints, i.e. annoataions, removed).
+- <b>Evaluation</b>: Evaluate LLMs on DafnyBench by asking models to fill in missing hints in a test file from the `hints_removed` set and checking if the reconstructed program could by verified by Dafny. Please refer to the `eval` directory.
 <br>
 
-<img src="assets/task_overview.png" style="width: 500px; display: block; margin-left: auto; margin-right: auto;">
+
+<div style="text-align: center;">
+  <img src="assets/task_overview.jpg" width="500px">
+</div>
 <br><br>
+
 
 
 ## Set Up for Evaluation 🔧
@@ -56,13 +60,13 @@ export model_to_eval='gpt-4o'
 
 ## Contents 📁
 
-- [`DafnyBench`](DafnyBench)
+- `DafnyBench`
   - A collection of 782 Dafny programs. Each program has a `ground_truth` version that is fully verified with Dafny & a `hints_removed` version that has hints (i.e. annotations) removed
-- [`eval`](eval)
+- `eval`
   - Contains scripts to evaluate LLMs on DafnyBench
-- [`results`](results)
-  - [`results_summary`](results/results_summary) - Dataframes that summarize LLMs' success on every test program
-  - [`reconstructed_files`](results/reconstructed_files) - LLM outputs with hints filled back in
+- `results`
+  - `results_summary` - Dataframes that summarize LLMs' success on every test program
+  - `reconstructed_files` - LLM outputs with hints filled back in
   - `analysis` - Contains a notebook for analyzing the results
 <br>
 
@@ -70,7 +74,7 @@ export model_to_eval='gpt-4o'
 ## Contact 📩
 
 If you have any questions about using DafnyBench, please feel free to email [wendysun@mit.edu](mailto:wendysun@mit.edu) or let us know via an issue.
-<br>
+<br><br>
 
 
 ## Citation 📎
