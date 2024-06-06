@@ -139,7 +139,7 @@ def scatter_num_attempts(error_y_mode=None, **kwargs):
                 )
             )
         
-        fig.update_layout(yaxis_tickformat=',.0%', legend_title=None, width=900, height=600, font=dict(size = 30))
+        fig.update_layout(yaxis_tickformat=',.0%', legend_title=None, width=900, height=600, font=dict(size = 20))
         fig.update_yaxes(range=[0, 0.8])
         reordered_data = []
         for i in range(int(len(fig.data) / 2)):
@@ -187,7 +187,7 @@ def scatter_with_error_bands(bin_endpoints, error_y_mode=None, **kwargs):
                 )
             )
         
-        fig.update_layout(yaxis_tickformat=',.0%', legend_title=None, width=900, height=600, font=dict(size = 30))
+        fig.update_layout(yaxis_tickformat=',.0%', legend_title=None, width=900, height=600, font=dict(size = 20))
         fig.update_xaxes(type='log', showgrid=True, dtick=1, minor=dict(ticks="inside", ticklen=6, showgrid=False))
         fig.update_yaxes(range=[0, 1])
 

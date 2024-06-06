@@ -1,6 +1,9 @@
 # DafnyBench: A Benchmark for Formal Software Verification
 
 Dataset & code for our paper [DafnyBench: A Benchmark for Formal Software Verification]()
+<br>
+
+Dataset is also available for [download on 🤗 HuggingFace](https://huggingface.co/datasets/wendy-sun/DafnyBench).
 <br><br>
 
 ## Overview 📊
@@ -69,13 +72,3 @@ export model_to_eval='gpt-4o'
   - `reconstructed_files` - LLM outputs with hints filled back in
   - `analysis` - Contains a notebook for analyzing the results
 <br>
-
-
-## Contact 📩
-
-If you have any questions about using DafnyBench, please feel free to email [wendysun@mit.edu](mailto:wendysun@mit.edu) or let us know via an issue.
-<br><br>
-
-
-## Citation 📎
-
