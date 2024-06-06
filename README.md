@@ -51,7 +51,7 @@ export OPENAI_API_KEY=
 ```
 7. You can choose to evaluate an LLM on a single test program, such as:
 ```
-python fill_hints.py --model "gpt-4o" --test_file "Clover_abs_no_hints.dfy" --feedback_turn 3 ----dafny_path "$DAFNY_PATH"
+python fill_hints.py --model "gpt-4o" --test_file "Clover_abs_no_hints.dfy" --feedback_turn 3 ---dafny_path "$DAFNY_PATH"
 ```
 or evaluate on the entire dataset:
 ```
