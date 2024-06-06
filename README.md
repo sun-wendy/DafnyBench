@@ -3,7 +3,7 @@
 Dataset & code for our paper [DafnyBench: A Benchmark for Formal Software Verification]()
 <br>
 
-Dataset is also available for [download on 🤗 HuggingFace](https://huggingface.co/datasets/wendy-sun/DafnyBench).
+Dataset is also available for [download on 🤗 Hugging Face](https://huggingface.co/datasets/wendy-sun/DafnyBench).
 <br><br>
 
 ## Overview 📊
@@ -20,7 +20,7 @@ DafnyBench is the largest benchmark of its kind for training and evaluating mach
 
 
 <p align="center">
-  <img src="assets/task_overview.jpg" width="500px"/>
+  <img src="assets/task_overview.jpg" width="600px"/>
 </p>
 <br><br>
 
