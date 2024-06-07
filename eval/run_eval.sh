@@ -1,4 +1,7 @@
 #!/bin/bash
+#SBATCH --job-name=eval
+#SBATCH -o log/%j-eval.log
+#SBATCH -c 1
 
 export PATH=$DAFNYBENCH_ROOT:$PATH
 export TEST_SET_DIR=$DAFNYBENCH_ROOT/DafnyBench/dataset/hints_removed
@@ -18,26 +21,18 @@ if [ ! -f "$outputs_file" ]; then
     echo "{}" > "$outputs_file"
 fi
 
-counter=0
-
 # Evaluation
 for DAFNY_FILE in "$TEST_SET_DIR"/*.dfy
 do
-    # Increment the counter
-    ((counter++))
-
-    # Break the loop if the counter exceeds 3
-    if [ "$counter" -gt 3 ]; then
-        break
-    fi
     echo "Reconstructing $DAFNY_FILE"
     if [ -f "$DAFNY_FILE" ]; then
         FILENAME=$(basename "$DAFNY_FILE")
         python fill_hints.py \
             --model "$model_to_eval" \
             --test_file "$FILENAME" \
-            --feedback_turn 3 \
+            --feedback_turn 10 \
             --dafny_path "$DAFNY_PATH"  # Example Dafny path: "/opt/homebrew/bin/Dafny"
+            > log/%j-eval.log 2>&1
     fi
 done
 

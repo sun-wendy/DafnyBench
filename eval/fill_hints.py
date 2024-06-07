@@ -28,7 +28,7 @@ def fill_hints(s, model, test_file, dafny_path, feedback_turn):
     # Give LLM multiple tries to reconstruct hints (& take into account Dafny feedback)
     for _ in range(feedback_turn):
         with s.copy() as tmp:
-            tmp += assistant(gen("new_body_with_hints", max_tokens=1024, temperature=0.3))
+            tmp += assistant(gen("new_body_with_hints", max_tokens=4096, temperature=0.3))
             body_with_hints = extract_code_from_llm_output(tmp["new_body_with_hints"])
         s += assistant(body_with_hints)
         out, _ = run_dafny(body_with_hints, dafny_path)

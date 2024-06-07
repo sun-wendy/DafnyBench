@@ -15,12 +15,12 @@ DafnyBench is the largest benchmark of its kind for training and evaluating mach
 ## Usage 💻
 
 - <b>Dataset</b>: The dataset for DafnyBench (with 782 programs) could be found in the `DafnyBench` directory, which contains the `ground_truth` set & the `hints_removed`set (with compiler hints, i.e. annoataions, removed).
-- <b>Evaluation</b>: Evaluate LLMs on DafnyBench by asking models to fill in missing hints in a test file from the `hints_removed` set and checking if the reconstructed program could by verified by Dafny. Please refer to the `eval` directory.
+- <b>Evaluation</b>: Evaluate LLMs on DafnyBench by asking models to fill in missing hints in a test file from the `hints_removed` set and checking if the reconstructed program could be verified by Dafny. Please refer to the `eval` directory.
 <br>
 
 
 <p align="center">
-  <img src="assets/task_overview.jpg" width="600px"/>
+  <img src="assets/task_overview.png" width="600px"/>
 </p>
 <br><br>
 
