@@ -1,7 +1,4 @@
 #!/bin/bash
-#SBATCH --job-name=eval
-#SBATCH -o log/%j-eval.log
-#SBATCH -c 1
 
 export PATH=$DAFNYBENCH_ROOT:$PATH
 export TEST_SET_DIR=$DAFNYBENCH_ROOT/DafnyBench/dataset/hints_removed
@@ -30,9 +27,8 @@ do
         python fill_hints.py \
             --model "$model_to_eval" \
             --test_file "$FILENAME" \
-            --feedback_turn 10 \
-            --dafny_path "$DAFNY_PATH"  # Example Dafny path: "/opt/homebrew/bin/Dafny"
-            > log/%j-eval.log 2>&1
+            --feedback_turn 3 \
+            --dafny_path "$DAFNY_PATH"  # Example Dafny executable path: "/opt/homebrew/bin/Dafny"
     fi
 done
 

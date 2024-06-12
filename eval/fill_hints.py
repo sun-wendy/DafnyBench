@@ -1,6 +1,6 @@
 import argparse
 import sglang as sgl
-from sglang import OpenAI, Anthropic, VertexAI, assistant, gen, set_default_backend, system, user
+from sglang import OpenAI, Anthropic, VertexAI, Runtime, assistant, gen, set_default_backend, system, user
 
 from sys_prompts import *
 from utils import (
@@ -15,8 +15,8 @@ from utils import (
 # Function adapted from: https://github.com/ChuyueSun/Clover/blob/main/clover/clover.py
 @sgl.function
 def fill_hints(s, model, test_file, dafny_path, feedback_turn):
-    # Read the input Dafny program w/ hints removed
     program_path = f"../DafnyBench/dataset/hints_removed/{test_file}"
+
     with open(program_path, "r") as file:
         body = file.read()
     
@@ -64,9 +64,12 @@ if __name__ == "__main__":
     if args.model.startswith("gpt"):
         set_default_backend(OpenAI(args.model))
     elif args.model.startswith("claude"):
-        set_default_backend(Anthropic(args.model))
+        set_default_backend(Anthropic('claude-3-opus-20240229'))
     elif args.model.startswith("gemini"):
         set_default_backend(VertexAI(args.model))
+    elif args.model.startswith("codellama-7b"):
+        runtime = Runtime(model_path="codellama/CodeLlama-7b-Instruct-hf")
+        set_default_backend(runtime)
     else:
         raise ValueError("Invalid model name")
 
