@@ -77,7 +77,7 @@ export model_to_eval='gpt-4o'
 
 ## Citation 📎
 
-```
+```bibtex
 @article{loughridge2024dafnybench,
          title={DafnyBench: A Benchmark for Formal Software Verification}, 
          author={Chloe Loughridge and Qinyi Sun and Seth Ahrenbach and Federico Cassano and Chuyue Sun and Ying Sheng and Anish Mudide and Md Rakib Hossain Misu and Nada Amin and Max Tegmark},
