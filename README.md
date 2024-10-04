@@ -1,11 +1,5 @@
 # DafnyBench: A Benchmark for Formal Software Verification
 
-Dataset & code for our paper [DafnyBench: A Benchmark for Formal Software Verification](https://arxiv.org/abs/2406.08467)
-<br>
-
-Dataset is also available for [download on 🤗 Hugging Face](https://huggingface.co/datasets/wendy-sun/DafnyBench).
-<br><br>
-
 ## Overview 📊
 
 DafnyBench is the largest benchmark of its kind for training and evaluating machine learning systems for formal software verification, with over 750 Dafny programs.
