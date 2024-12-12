@@ -1,5 +1,11 @@
 # DafnyBench: A Benchmark for Formal Software Verification
 
+Dataset & code for our paper [DafnyBench: A Benchmark for Formal Software Verification](https://arxiv.org/abs/2406.08467)
+<br>
+
+Dataset is also available for [download on 🤗 Hugging Face](https://huggingface.co/datasets/wendy-sun/DafnyBench).
+<br><br>
+
 ## Overview 📊
 
 DafnyBench is the largest benchmark of its kind for training and evaluating machine learning systems for formal software verification, with over 750 Dafny programs.
@@ -65,3 +71,17 @@ export model_to_eval='gpt-4o'
   - `results_summary` - Dataframes that summarize LLMs' success on every test program
   - `reconstructed_files` - LLM outputs with hints filled back in
   - `analysis` - Contains a notebook for analyzing the results
+
+<br><br>
+
+
+## Citation 📎
+
+```bibtex
+@article{loughridge2024dafnybench,
+         title={DafnyBench: A Benchmark for Formal Software Verification}, 
+         author={Chloe Loughridge and Qinyi Sun and Seth Ahrenbach and Federico Cassano and Chuyue Sun and Ying Sheng and Anish Mudide and Md Rakib Hossain Misu and Nada Amin and Max Tegmark},
+         year={2024},
+         journal={arXiv preprint arXiv:2406.08467}
+}
+```
